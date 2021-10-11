@@ -80,3 +80,7 @@ PAMcorrection::estPAMcorr2(ca2_ty_di,yl = 4) # factor still better
 PAMcorrection::estPAMcorr2(ca2_di_ge,yl = 4)
 PAMcorrection::estPAMcorr2(ca2_ty_ge,yl = 4)
 
+# final best result (vs org using PAN sorted)
+PAMcorrection::estPAMcorr2(full,yl = 4,sortby = "PAM")
+PAMcorrection::estPAMcorr2(c2_ty_di,yl = 4,sortby = "PAM")
+
