@@ -1,0 +1,625 @@
+"","ID","dilect","place","GID","generation","informant","type","progess_lvl","PAM","PAM_add","CTR","CTR_add"
+"1",1,"Nordniederdeutsch","Alt Duvenstedt","108151","alt","RDALT","WSS","3",1.15,"?",0.8,NA
+"2",2,"Nordniederdeutsch","Alt Duvenstedt","108151","mittel","RD5","WSS","3",1.09,"?",0.4,NA
+"4",3,"Nordniederdeutsch","Bad Segeberg","116678","alt","SEALT2","WSS","3",1.09,"PL",0.69,"CK"
+"5",4,"Nordniederdeutsch","Bad Segeberg","116678","mittel","SE2","WSS","3",1.34,"?",0.48,NA
+"6",5,"Nordniederdeutsch","Bad Segeberg","116678","jung","SEJUNG1","WSS","3",1.06,"PL",0.39,"CK"
+"13",6,"Nordniederdeutsch","Oldenburg","107826","alt","OLALT3","WSS","3",1.33,"?",0.71,NA
+"14",7,"Nordniederdeutsch","Oldenburg","107826","mittel","OL5","WSS","3",1.27,"?",0.47,NA
+"15",8,"Nordniederdeutsch","Oldenburg","107826","jung","OLJUNG","WSS","3",1,"?",0.32,NA
+"25",9,"Mecklenburgisch-Vorpommersch","Schwerin","119248","mittel","SN2","WSS","3",0.83,"CK",0.4,"CK"
+"26",10,"Mecklenburgisch-Vorpommersch","Schwerin","119248","alt","SNALT2","WSS","3",1.02,"PL",0.5,"CK"
+"27",11,"Mecklenburgisch-Vorpommersch","Schwerin","119248","jung","SNJUNG1","WSS","3",0.66,"MA",0.31,"CK"
+"31",12,"Mecklenburgisch-Vorpommersch","Bergen","118712","mittel","RUEG1","WSS","3",1.41,"LV",0.8,NA
+"32",13,"Mecklenburgisch-Vorpommersch","Bergen","118712","alt","RUEGALT2","WSS","3",1.62,"LV",1.1,NA
+"33",14,"Mecklenburgisch-Vorpommersch","Bergen","118712","jung","RUEGJUNG1","WSS","3",1.47,"LV",0.8,NA
+"43",15,"Brandenburgisch","Potsdam","125116","mittel","P9","WSS","3",0.98,"?",0.47,"SL"
+"44",16,"Brandenburgisch","Potsdam","125116","alt","PALT1","WSS","3",1.32,"?",0.71,"SL"
+"45",17,"Brandenburgisch","Potsdam","125116","jung","PJUNG1","WSS","3",1.24,"?",0.48,"SL"
+"46",18,"Brandenburgisch","Pritzwalk","125032","mittel","PR1","WSS","3",1.62,"?",0.81,"SL"
+"47",19,"Brandenburgisch","Pritzwalk","125032","alt","PRALT2","WSS","3",1.79,"?",0.77,"SL"
+"48",20,"Brandenburgisch","Pritzwalk","125032","jung","PRJUNG2","WSS","3",1.08,"?",0.44,"SL"
+"58",21,"Westfälisch","Borken","102881","mittel","BOR2","WSS","3",1.03,"?",0.42,NA
+"59",22,"Westfälisch","Borken","102881","alt","BORALT1","WSS","3",1.25,"?",0.79,NA
+"60",23,"Westfälisch","Borken","102881","jung","BORJUNG1","WSS","3",1.33,"?",0.55,NA
+"61",24,"Westfälisch","Hagen","103064","alt","HAALT1","WSS","3",1.05,"?",0.69,NA
+"62",25,"Westfälisch","Hagen","103064","mittel","HA4","WSS","3",0.99,"?",0.58,NA
+"63",26,"Westfälisch","Hagen","103064","jung","HAJUNG1","WSS","3",0.84,"?",0.31,NA
+"64",27,"Westfälisch","Gütersloh","101621","alt","GTALT2","WSS","3",0.79,"?",0.36,NA
+"65",28,"Westfälisch","Gütersloh","101621","mittel","GT3","WSS","3",1.03,"?",0.4,NA
+"66",29,"Westfälisch","Gütersloh","101621","jung","GTJUNG2","WSS","3",0.85,"?",0.21,NA
+"67",30,"Westfälisch","Horn-Bad Meinberg","102973","alt","LIPALT1","WSS","3",1.1,"MB",0.55,NA
+"68",31,"Westfälisch","Horn-Bad Meinberg","102973","mittel","LIP5","WSS","3",0.78,"?",0.45,NA
+"69",32,"Westfälisch","Horn-Bad Meinberg","102973","jung","LIPJUNG2","WSS","3",0.71,"?",0.2,NA
+"70",33,"Westfälisch","Drolshagen","101533","alt","OEALT2","WSS","3",1.18,"?",0.84,NA
+"71",34,"Westfälisch","Drolshagen","101533","mittel","OE7","WSS","3",0.89,"?",0.36,NA
+"72",35,"Westfälisch","Drolshagen","101533","jung","OEJUNG","WSS","3",1.07,"?",0.4,NA
+"73",36,"Ostfälisch","Halberstadt","125017","alt","HBSALT2","WSS","3",0.87,"MA",0.5,"MG"
+"74",37,"Ostfälisch","Halberstadt","125017","mittel","HBS9","WSS","3",1.07,"MA",0.53,"MG"
+"75",38,"Ostfälisch","Halberstadt","125017","jung","HBSJUNG2","WSS","3",0.8,"MA",0.4,"MG"
+"79",39,"Ostfälisch","Northeim","107905","mittel","NOM3","WSS","3",1.04,"?",0.44,"CK"
+"80",40,"Ostfälisch","Northeim","107905","alt","NOMALT1","WSS","3",1.7,"MA",0.82,"CK"
+"81",41,"Ostfälisch","Northeim","107905","jung","NOMJUNG","WSS","3",1.1,"MA",0.56,"CK"
+"85",42,"Ripuarisch","Bergisch-Gladbach","135950","alt","GLALT1","WSS","3",1.19,"?",1,NA
+"86",43,"Ripuarisch","Bergisch-Gladbach","135950","mittel","GL3","WSS","3",0.7,"?",0.6,NA
+"91",44,"Ripuarisch","Troisdorf","134279","alt","SUALT","WSS","3",1.11,"?",0.8,NA
+"92",45,"Ripuarisch","Troisdorf","134279","mittel","SU1","WSS","3",0.89,"?",0.6,NA
+"94",46,"Ripuarisch-Niederfränkisch","Krefeld","135092","alt","KRALT3","WSS","3",1.13,"?",0.8,NA
+"95",47,"Ripuarisch-Niederfränkisch","Krefeld","135092","mittel","KR5","WSS","3",0.99,"?",0.7,NA
+"97",48,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","alt","MGALT","WSS","3",1.28,"?",0.9,NA
+"98",49,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","mittel","MG6","WSS","3",1.1,"?",0.8,NA
+"106",50,"Moselfränkisch","Wittlich","100001","alt","WITALT1","WSS","3",0.93,"?",0.7,NA
+"115",51,"Rheinfränkisch","Kaiserslautern","100327","mittel","KL3","WSS","3",0.72,"PL",0.57,"CK"
+"116",52,"Rheinfränkisch","Kaiserslautern","100327","alt","KLALT1","WSS","3",1.13,"PL",0.72,"CK"
+"117",53,"Rheinfränkisch","Kaiserslautern","100327","jung","KLJUNG1","WSS","3",0.65,"PL",0.31,"CK"
+"121",54,"Rheinfränkisch","Reinheim","99678","alt","DAALT2","WSS","3",1.18,"?",1.1,NA
+"123",55,"Rheinfränkisch","Reinheim","99678","jung","DAJUNG1","WSS","3",0.74,"?",0.8,NA
+"130",56,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","mittel","MZ7","WSS","2",1.08,"?",0.78,"?"
+"131",57,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","alt","MZALT1","WSS","2",0.74,"?",0.495,"?"
+"136",58,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","alt","FALT1","WSS","3",1.36,"?",1,NA
+"137",59,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","mittel","F1","WSS","3",1.21,"?",0.9,NA
+"138",60,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","jung","FJUNG1","WSS","3",0.96,"?",0.6,NA
+"142",61,"Nordhessisch","Homberg","96619","mittel","HR4","WSS","3",1.39,"MA",0.9,"CK"
+"143",62,"Nordhessisch","Homberg","96619","alt","HRALT2","WSS","3",0.96,"MA",0.66,"CK"
+"144",63,"Nordhessisch","Homberg","96619","jung","HRJUNG1","WSS","3",0.8,"MA",0.44,"CK"
+"148",64,"Zentralhessisch","Bad Nauheim","99815","alt","FBALT2","WSS","3",1.32,"?",1.2,NA
+"149",65,"Zentralhessisch","Bad Nauheim","99815","mittel","FB1","WSS","3",0.73,"?",0.6,NA
+"150",66,"Zentralhessisch","Bad Nauheim","99815","jung","FBJUNG1","WSS","3",1.42,"?",0.7,NA
+"151",67,"Zentralhessisch","Büdingen","99973","alt","BÜDALT1","WSS","3",1.3,"?",1.2,NA
+"152",68,"Zentralhessisch","Büdingen","99973","mittel","BÜD3","WSS","3",1.14,"?",0.9,NA
+"153",69,"Zentralhessisch","Büdingen","99973","jung","BÜDJUNG1","WSS","3",1.02,"?",0.7,NA
+"154",70,"Zentralhessisch","Gießen","96713","alt","GIALT1","WSS","3",1.55,"?",1.1,NA
+"155",71,"Zentralhessisch","Gießen","96713","mittel","GI11","WSS","3",1.53,"?",1.1,NA
+"156",72,"Zentralhessisch","Gießen","96713","jung","GIJUNG","WSS","3",1.31,"?",0.6,NA
+"157",73,"Zentralhessisch","Ulrichstein","94901","alt","VBALT2","WSS","3",2.1,"?",1.4,NA
+"158",74,"Zentralhessisch","Ulrichstein","94901","mittel","VB2","WSS","3",1.4,"?",1,NA
+"159",75,"Zentralhessisch","Ulrichstein","94901","jung","VBJUNG1","WSS","3",1.48,"?",1.1,NA
+"160",76,"Osthessisch","Hofbieber","100236","alt","FDALT3","WSS","3",1.05,"MA",0.98,"CK"
+"161",77,"Osthessisch","Hofbieber","100236","mittel","FD4","WSS","3",0.72,"MA",0.53,"CK"
+"162",78,"Osthessisch","Hofbieber","100236","jung","FDJUNG1","WSS","3",0.93,"MG",0.32,"SL"
+"166",79,"Thüringisch","Heilbad Heiligenstadt","142955","mittel","EIC1","WSS","2",0.94,"?",0.46,NA
+"169",80,"Thüringisch","Sondershausen","141165","alt","KYFALT2","WSS","3",1.93,"?",1.8,NA
+"170",81,"Thüringisch","Sondershausen","141165","mittel","KYF5","WSS","3",1.42,"?",1.1,NA
+"173",82,"Thüringisch-Obersächsisch","Gera","139192","mittel","G2","WSS","3",1.71,"?",1.1,NA
+"179",83,"Obersächsisch","Dresden","137577","mittel","DD4","WSS","3",1.27,"?",0.9,NA
+"182",84,"Obersächsisch","Reichenbach","137668","mittel","Z9","WSS","3",1.51,"?",1.3,NA
+"186",85,"Nordobersächsisch","Dessau","120091","jung","DEJUNG1","WSS","2",0.91,"?",0.43,NA
+"187",86,"Ostfränkisch","Ansbach","92718","alt","ANALT2","WSS","3",1.68,"?",1.07,"CK"
+"188",87,"Ostfränkisch","Ansbach","92718","mittel","AN3","WSS","3",1.06,"?",0.57,"CK"
+"189",88,"Ostfränkisch","Ansbach","92718","jung","ANJUNG","WSS","3",1.46,"?",0.84,"CK"
+"190",89,"Ostfränkisch","Bamberg","85574","alt","BAALT","WSS","3",1.12,"?",0.9,NA
+"196",90,"Nordbairisch","Hirschau","82073","alt","AMALT1","WSS","3",1.63,"?",1.3,NA
+"197",91,"Nordbairisch","Hirschau","82073","mittel","AM3","WSS","3",1.35,"?",1,NA
+"199",92,"Nordbairisch","Weiden","73125","alt","WENALT2","WSS","3",1.22,"?",1.1,NA
+"200",93,"Nordbairisch","Weiden","73125","mittel","WEN2","WSS","3",1.48,"?",1.1,NA
+"202",94,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","alt","INALT1","WSS","3",1.34,"?",1.1,NA
+"203",95,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","mittel","IN6","WSS","3",1.47,"?",1.2,NA
+"204",96,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","jung","INJUNG1","WSS","3",1.47,"MB",1.1,NA
+"205",97,"Nordbairisch-Mittelbairisch","Regensburg","77282","alt","RALT1","WSS","3",1.28,"?",0.9,NA
+"206",98,"Nordbairisch-Mittelbairisch","Regensburg","77282","mittel","R3","WSS","3",1.31,"?",1,NA
+"208",99,"Mittelbairisch","München","73556","alt","MALT1","WSS","3",1.64,"?",1.3,NA
+"209",100,"Mittelbairisch","München","73556","mittel","M9","WSS","3",1.31,"?",1.1,NA
+"214",101,"Mittelbairisch","Trostberg","75512","alt","TSALT1","WSS","3",1.19,"MB",1,NA
+"215",102,"Mittelbairisch","Trostberg","75512","mittel","TS2","WSS","3",0.96,"MB",0.8,NA
+"216",103,"Mittelbairisch","Trostberg","75512","jung","TSJUNG1","WSS","3",1.19,"MB",0.9,NA
+"226",104,"Schwäbisch","Kaufbeuren","83571","alt","KFALT3","WSS","3",1.29,"?",1.1,NA
+"227",105,"Schwäbisch","Kaufbeuren","83571","mittel","KF1","WSS","3",1.15,"?",1,NA
+"228",106,"Schwäbisch","Kaufbeuren","83571","jung","KFJUNG1","WSS","3",1,"?",0.7,NA
+"229",107,"Schwäbisch","Ulm","127525","alt","ULALT1","WSS","3",1.63,"?",1.4,NA
+"230",108,"Schwäbisch","Ulm","127525","mittel","UL1","WSS","3",1.12,"?",0.9,NA
+"231",109,"Schwäbisch","Ulm","127525","jung","ULJUNG2","WSS","3",1.23,"?",1.1,NA
+"232",110,"Schwäbisch","Balingen","129371","alt","BLALT1","WSS","3",1.46,"?",1.3,NA
+"233",111,"Schwäbisch","Balingen","129371","mittel","BL2","WSS","3",1.08,"?",0.8,NA
+"234",112,"Schwäbisch","Balingen","129371","jung","BLJUNG1","WSS","3",1.12,"?",0.9,NA
+"235",113,"Schwäbisch","Rudersberg","131121","alt","WNALT1","WSS","3",1.29,"MA",1.1,NA
+"236",114,"Schwäbisch","Rudersberg","131121","mittel","WN3","WSS","3",1.12,"?",0.8,NA
+"237",115,"Schwäbisch","Rudersberg","131121","jung","WNJUNG1","WSS","3",1.19,"NZ",1,NA
+"238",116,"Schwäbisch","Blindheim","78986","alt","DLGALT2","WSS","3",1.7,"?",1.4,NA
+"239",117,"Schwäbisch","Blindheim","78986","mittel","DLG1","WSS","3",1.55,"?",1.3,NA
+"240",118,"Schwäbisch","Blindheim","78986","jung","DLGJUNG2","WSS","3",1.29,"?",1,NA
+"247",119,"Mittelalemannisch","Bräunlingen","127324","mittel","VS3","WSS","3",0.99,"?",0.55,"CK"
+"248",120,"Mittelalemannisch","Bräunlingen","127324","alt","VSALT2","WSS","3",1.17,"PL",0.77,"CK"
+"249",121,"Mittelalemannisch","Bräunlingen","127324","jung","VSJUNG1","WSS","3",1.05,"?",0.58,"CK"
+"250",122,"Mittelalemannisch","Ravensburg","132509","alt","RVALT","WSS","2",1.07,"PL",0.78,"MG"
+"251",123,"Mittelalemannisch","Ravensburg","132509","jung","RVJUNG1","WSS","2",1.24,"MBS",0.9,"MG"
+"252",124,"Mittelalemannisch","Ravensburg","132509","mittel","RV2","WSS","2",1.09,"PL",0.79,"MG"
+"253",125,"Mittelalemannisch","Tuttlingen","130272","mittel","TUT3","WSS","3",1.3,"?",0.77,"MG"
+"254",126,"Mittelalemannisch","Tuttlingen","130272","alt","TUTALT2","WSS","3",1.07,"?",0.66,"MG"
+"255",127,"Mittelalemannisch","Tuttlingen","130272","jung","TUTJUNG1","WSS","3",0.73,"?",0.5,"MG"
+"256",128,"Niederalemannisch","Ohlsbach","128482","mittel","OG2","WSS","3",1.09,"?",0.7,"CK"
+"257",129,"Niederalemannisch","Ohlsbach","128482","alt","OGALT","WSS","3",1.3,"RK",0.84,"CK"
+"258",130,"Niederalemannisch","Ohlsbach","128482","jung","OGJUNG2","WSS","3",0.95,"MBS",0.53,"CK"
+"259",131,"Nordniederdeutsch","Alt Duvenstedt","108151","alt","RDALT","NoSo","3",0.81,"?",0.9,NA
+"260",132,"Nordniederdeutsch","Alt Duvenstedt","108151","mittel","RD5","NoSo","3",0.95,"?",0.2,NA
+"262",133,"Nordniederdeutsch","Bad Segeberg","116678","alt","SEALT2","NoSo","3",0.84,"PL",0.43,"CK"
+"263",134,"Nordniederdeutsch","Bad Segeberg","116678","mittel","SE2","NoSo","3",1.22,"?",0.414414414414414,NA
+"264",135,"Nordniederdeutsch","Bad Segeberg","116678","jung","SEJUNG1","NoSo","3",0.94,"PL",0.35,"CK"
+"271",136,"Nordniederdeutsch","Oldenburg","107826","alt","OLALT3","NoSo","3",1.26,"?",0.5,NA
+"272",137,"Nordniederdeutsch","Oldenburg","107826","mittel","OL5","NoSo","3",0.73,"?",0.17,NA
+"273",138,"Nordniederdeutsch","Oldenburg","107826","jung","OLJUNG","NoSo","3",1.11,"?",0.25,NA
+"283",139,"Mecklenburgisch-Vorpommersch","Schwerin","119248","mittel","SN2","NoSo","3",0.78,"?",0.34,"CK"
+"284",140,"Mecklenburgisch-Vorpommersch","Schwerin","119248","alt","SNALT2","NoSo","3",0.79,"MA",0.43,"CK"
+"285",141,"Mecklenburgisch-Vorpommersch","Schwerin","119248","jung","SNJUNG1","NoSo","3",1.28,"MA",0.51,"CK"
+"289",142,"Mecklenburgisch-Vorpommersch","Bergen","118712","mittel","RUEG1","NoSo","3",1.24,"LV",0.7,NA
+"290",143,"Mecklenburgisch-Vorpommersch","Bergen","118712","alt","RUEGALT2","NoSo","3",1.39,"LV",0.8,NA
+"291",144,"Mecklenburgisch-Vorpommersch","Bergen","118712","jung","RUEGJUNG1","NoSo","3",1.37,"LV",0.7,NA
+"296",145,"Brandenburgisch-Südmärkisch","Frankfurt an der Oder","125330","alt","FFALT3","NoSo","2",0.74,"?",0.4,NA
+"301",146,"Brandenburgisch","Potsdam","125116","mittel","P9","NoSo","3",1.18,"?",0.53,"SL"
+"302",147,"Brandenburgisch","Potsdam","125116","alt","PALT1","NoSo","3",1.48,"?",0.76,"SL"
+"303",148,"Brandenburgisch","Potsdam","125116","jung","PJUNG1","NoSo","3",0.84,"?",0.54,"SL"
+"304",149,"Brandenburgisch","Pritzwalk","125032","mittel","PR1","NoSo","3",1.51,"?",0.96,"SL"
+"305",150,"Brandenburgisch","Pritzwalk","125032","alt","PRALT2","NoSo","3",1.47,"?",0.8,"SL"
+"306",151,"Brandenburgisch","Pritzwalk","125032","jung","PRJUNG2","NoSo","3",1.24,"?",0.52,"SL"
+"316",152,"Westfälisch","Borken","102881","mittel","BOR2","NoSo","3",0.82,"?",0.19,NA
+"317",153,"Westfälisch","Borken","102881","alt","BORALT1","NoSo","3",0.77,"?",0.61,NA
+"318",154,"Westfälisch","Borken","102881","jung","BORJUNG1","NoSo","3",1.03,"?",0.36,NA
+"319",155,"Westfälisch","Hagen","103064","alt","HAALT1","NoSo","3",0.68,"?",0.47,NA
+"320",156,"Westfälisch","Hagen","103064","mittel","HA4","NoSo","3",0.67,"?",0.48,NA
+"321",157,"Westfälisch","Hagen","103064","jung","HAJUNG1","NoSo","3",0.94,"?",0.31,NA
+"322",158,"Westfälisch","Gütersloh","101621","alt","GTALT2","NoSo","3",0.88,"?",0.43,NA
+"323",159,"Westfälisch","Gütersloh","101621","mittel","GT3","NoSo","3",0.95,"?",0.26,NA
+"324",160,"Westfälisch","Gütersloh","101621","jung","GTJUNG2","NoSo","3",0.95,"?",0.18,NA
+"325",161,"Westfälisch","Horn-Bad Meinberg","102973","alt","LIPALT1","NoSo","3",0.93,"?",0.57,NA
+"326",162,"Westfälisch","Horn-Bad Meinberg","102973","mittel","LIP5","NoSo","3",0.97,"?",0.4,NA
+"327",163,"Westfälisch","Horn-Bad Meinberg","102973","jung","LIPJUNG2","NoSo","3",0.82,"?",0.11,NA
+"328",164,"Westfälisch","Drolshagen","101533","alt","OEALT2","NoSo","3",0.98,"?",0.68,NA
+"329",165,"Westfälisch","Drolshagen","101533","mittel","OE7","NoSo","3",0.73,"?",0.29,NA
+"330",166,"Westfälisch","Drolshagen","101533","jung","OEJUNG","NoSo","3",0.99,"PL",0.48,NA
+"331",167,"Ostfälisch","Halberstadt","125017","alt","HBSALT2","NoSo","3",0.92,"MA",0.56,"MG"
+"332",168,"Ostfälisch","Halberstadt","125017","mittel","HBS9","NoSo","3",1.13,"PL",0.5,"MG"
+"333",169,"Ostfälisch","Halberstadt","125017","jung","HBSJUNG2","NoSo","3",1.05,"MA",0.46,"MG"
+"337",170,"Ostfälisch","Northeim","107905","mittel","NOM3","NoSo","3",0.98,"?",0.48,"CK"
+"338",171,"Ostfälisch","Northeim","107905","alt","NOMALT1","NoSo","3",1.23,"PL",0.64,"CK"
+"339",172,"Ostfälisch","Northeim","107905","jung","NOMJUNG","NoSo","3",0.9,"PL",0.38,"CK"
+"343",173,"Ripuarisch","Bergisch-Gladbach","135950","alt","GLALT1","NoSo","3",0.79,"?",0.6,NA
+"344",174,"Ripuarisch","Bergisch-Gladbach","135950","mittel","GL3","NoSo","3",0.73,"?",0.6,NA
+"345",175,"Ripuarisch","Bergisch-Gladbach","135950","jung","GLJUNG1","NoSo","3",0.94,"PL",0.7,NA
+"349",176,"Ripuarisch","Troisdorf","134279","alt","SUALT","NoSo","3",1.42,"?",1,NA
+"350",177,"Ripuarisch","Troisdorf","134279","mittel","SU1","NoSo","3",0.66,"?",0.6,NA
+"351",178,"Ripuarisch","Troisdorf","134279","jung","SUJUNG2","NoSo","3",0.67,"PL",0.7,NA
+"352",179,"Ripuarisch-Niederfränkisch","Krefeld","135092","alt","KRALT3","NoSo","3",1.25,"?",0.9,NA
+"353",180,"Ripuarisch-Niederfränkisch","Krefeld","135092","mittel","KR5","NoSo","3",1.07,"?",0.8,NA
+"354",181,"Ripuarisch-Niederfränkisch","Krefeld","135092","jung","KRJUNG1","NoSo","3",0.79,"PL",0.7,NA
+"355",182,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","alt","MGALT","NoSo","3",1.13,"?",0.8,NA
+"356",183,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","mittel","MG6","NoSo","3",1.09,"?",0.8,NA
+"357",184,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","jung","MGJUNG1","NoSo","3",0.82,"PL",0.6,NA
+"364",185,"Moselfränkisch","Wittlich","100001","alt","WITALT1","NoSo","3",0.8,"?",0.5,NA
+"366",186,"Moselfränkisch","Wittlich","100001","jung","WITJUNG2","NoSo","3",0.82,"?",0.5,NA
+"373",187,"Rheinfränkisch","Kaiserslautern","100327","mittel","KL3","NoSo","3",1.09,"MA",0.8,"CK"
+"374",188,"Rheinfränkisch","Kaiserslautern","100327","alt","KLALT1","NoSo","3",1.44,"MA",0.96,"CK"
+"375",189,"Rheinfränkisch","Kaiserslautern","100327","jung","KLJUNG1","NoSo","3",0.9,"MA",0.49,"CK"
+"376",190,"Rheinfränkisch","Erbach","98214","alt","ERBALT1","NoSo","3",1.53,"PL",1.3,NA
+"377",191,"Rheinfränkisch","Erbach","98214","mittel","ERB2","NoSo","3",1.07,"PL",1,NA
+"378",192,"Rheinfränkisch","Erbach","98214","jung","ERBJUNG1","NoSo","3",1.21,"PL",0.7,NA
+"379",193,"Rheinfränkisch","Reinheim","99678","alt","DAALT2","NoSo","3",1.36,"?",1.2,NA
+"380",194,"Rheinfränkisch","Reinheim","99678","mittel","DA1","NoSo","3",0.94,"PL",0.9,NA
+"381",195,"Rheinfränkisch","Reinheim","99678","jung","DAJUNG1","NoSo","3",0.7,"?",0.7,NA
+"388",196,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","mittel","MZ7","NoSo","2",0.8,"?",0.55,"?"
+"389",197,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","alt","MZALT1","NoSo","2",1.04,"?",0.38,"?"
+"390",198,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","jung","MZJUNG1","NoSo","2",0.58,"PL",0.32,"?"
+"394",199,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","alt","FALT1","NoSo","3",0.94,"?",0.8,NA
+"395",200,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","mittel","F1","NoSo","3",1.01,"?",0.7,NA
+"396",201,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","jung","FJUNG1","NoSo","3",1.06,"?",0.7,NA
+"400",202,"Nordhessisch","Homberg","96619","mittel","HR4","NoSo","3",1.09,"MA",0.82,"CK"
+"401",203,"Nordhessisch","Homberg","96619","alt","HRALT2","NoSo","3",0.88,"PL",0.76,"CK"
+"402",204,"Nordhessisch","Homberg","96619","jung","HRJUNG1","NoSo","3",0.78,"PL",0.44,"CK"
+"406",205,"Zentralhessisch","Bad Nauheim","99815","alt","FBALT2","NoSo","3",1.24,"?",1,NA
+"407",206,"Zentralhessisch","Bad Nauheim","99815","mittel","FB1","NoSo","3",0.74,"?",0.6,NA
+"408",207,"Zentralhessisch","Bad Nauheim","99815","jung","FBJUNG1","NoSo","3",1.43,"?",0.8,NA
+"409",208,"Zentralhessisch","Büdingen","99973","alt","BÜDALT1","NoSo","3",1.49,"?",1.3,NA
+"410",209,"Zentralhessisch","Büdingen","99973","mittel","BÜD3","NoSo","3",1.08,"?",0.8,NA
+"411",210,"Zentralhessisch","Büdingen","99973","jung","BÜDJUNG1","NoSo","3",0.84,"?",0.6,NA
+"412",211,"Zentralhessisch","Gießen","96713","alt","GIALT1","NoSo","3",1.36,"?",1,NA
+"413",212,"Zentralhessisch","Gießen","96713","mittel","GI11","NoSo","3",1.44,"?",0.8,NA
+"414",213,"Zentralhessisch","Gießen","96713","jung","GIJUNG","NoSo","3",1.45,"MB",0.7,NA
+"415",214,"Zentralhessisch","Ulrichstein","94901","alt","VBALT2","NoSo","3",1.97,"?",1.4,NA
+"416",215,"Zentralhessisch","Ulrichstein","94901","mittel","VB2","NoSo","3",1.44,"?",1,NA
+"417",216,"Zentralhessisch","Ulrichstein","94901","jung","VBJUNG1","NoSo","3",1.56,"?",1,NA
+"418",217,"Osthessisch","Hofbieber","100236","alt","FDALT3","NoSo","3",1.06,"MA",0.92,"CK"
+"419",218,"Osthessisch","Hofbieber","100236","mittel","FD4","NoSo","3",0.84,"MA",0.63,"CK"
+"420",219,"Osthessisch","Hofbieber","100236","jung","FDJUNG1","NoSo","3",1,"MG",0.25,"SL"
+"427",220,"Thüringisch","Sondershausen","141165","alt","KYFALT2","NoSo","3",1.96,"?",1.6,NA
+"428",221,"Thüringisch","Sondershausen","141165","mittel","KYF5","NoSo","3",1.83,"?",1.2,NA
+"431",222,"Thüringisch-Obersächsisch","Gera","139192","mittel","G2","NoSo","3",1.36,"?",1.1,NA
+"436",223,"Obersächsisch","Dresden","137577","alt","DDALT","NoSo","3",1.33,"?",1,NA
+"437",224,"Obersächsisch","Dresden","137577","mittel","DD4","NoSo","3",1.28,"?",0.8,NA
+"438",225,"Obersächsisch","Dresden","137577","jung","DDJUNG2","NoSo","3",0.7,"?",0.8,NA
+"439",226,"Obersächsisch","Reichenbach","137668","alt","ZALT1","NoSo","3",1.88,"?",1.5,NA
+"440",227,"Obersächsisch","Reichenbach","137668","mittel","Z9","NoSo","3",1.94,"?",1.5,NA
+"445",228,"Ostfränkisch","Ansbach","92718","alt","ANALT2","NoSo","3",1.57,"?",1.07,"CK"
+"446",229,"Ostfränkisch","Ansbach","92718","mittel","AN3","NoSo","3",1.36,"?",0.77,"CK"
+"447",230,"Ostfränkisch","Ansbach","92718","jung","ANJUNG","NoSo","3",1.48,"?",1.21,"CK"
+"450",231,"Ostfränkisch","Bamberg","85574","jung","BAJUNG2","NoSo","3",1.14,"?",0.7,NA
+"454",232,"Nordbairisch","Hirschau","82073","alt","AMALT1","NoSo","3",1.93,"?",1.7,NA
+"455",233,"Nordbairisch","Hirschau","82073","mittel","AM3","NoSo","3",1.17,"?",1,NA
+"457",234,"Nordbairisch","Weiden","73125","alt","WENALT2","NoSo","3",1.55,"?",1.4,NA
+"458",235,"Nordbairisch","Weiden","73125","mittel","WEN2","NoSo","3",1.42,"?",1.2,NA
+"460",236,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","alt","INALT1","NoSo","3",1.33,"?",1.2,NA
+"461",237,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","mittel","IN6","NoSo","3",1.6,"?",1.3,NA
+"462",238,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","jung","INJUNG1","NoSo","3",1.45,"?",1,NA
+"463",239,"Nordbairisch-Mittelbairisch","Regensburg","77282","alt","RALT1","NoSo","3",1.35,"?",1.2,NA
+"464",240,"Nordbairisch-Mittelbairisch","Regensburg","77282","mittel","R3","NoSo","3",1.16,"?",1.1,NA
+"466",241,"Mittelbairisch","München","73556","alt","MALT1","NoSo","3",1.46,"?",1.2,NA
+"467",242,"Mittelbairisch","München","73556","mittel","M9","NoSo","3",1.49,"?",1.2,NA
+"472",243,"Mittelbairisch","Trostberg","75512","alt","TSALT1","NoSo","3",1.2,"?",1.1,NA
+"473",244,"Mittelbairisch","Trostberg","75512","mittel","TS2","NoSo","3",1.14,"?",0.9,NA
+"474",245,"Mittelbairisch","Trostberg","75512","jung","TSJUNG1","NoSo","3",1.07,"?",1,NA
+"484",246,"Schwäbisch","Kaufbeuren","83571","alt","KFALT3","NoSo","3",1.21,"?",1.1,NA
+"485",247,"Schwäbisch","Kaufbeuren","83571","mittel","KF1","NoSo","3",1.42,"?",1.1,NA
+"486",248,"Schwäbisch","Kaufbeuren","83571","jung","KFJUNG1","NoSo","3",1.14,"?",0.8,NA
+"487",249,"Schwäbisch","Ulm","127525","alt","ULALT1","NoSo","3",1.67,"?",1.1,NA
+"488",250,"Schwäbisch","Ulm","127525","mittel","UL1","NoSo","3",1.45,"?",1.1,NA
+"489",251,"Schwäbisch","Ulm","127525","jung","ULJUNG2","NoSo","3",1.2,"?",1,NA
+"490",252,"Schwäbisch","Balingen","129371","alt","BLALT1","NoSo","3",1.67,"?",1.5,NA
+"491",253,"Schwäbisch","Balingen","129371","mittel","BL2","NoSo","3",1.31,"?",1.1,NA
+"492",254,"Schwäbisch","Balingen","129371","jung","BLJUNG1","NoSo","3",1.21,"?",1,NA
+"493",255,"Schwäbisch","Rudersberg","131121","alt","WNALT1","NoSo","3",1.49,"MA",1.3,NA
+"494",256,"Schwäbisch","Rudersberg","131121","mittel","WN3","NoSo","3",1.25,"?",1,NA
+"495",257,"Schwäbisch","Rudersberg","131121","jung","WNJUNG1","NoSo","3",1.25,"MBS",1.1,NA
+"496",258,"Schwäbisch","Blindheim","78986","alt","DLGALT2","NoSo","3",1.18,"?",1,NA
+"497",259,"Schwäbisch","Blindheim","78986","mittel","DLG1","NoSo","3",1.46,"?",1.5,NA
+"498",260,"Schwäbisch","Blindheim","78986","jung","DLGJUNG2","NoSo","3",1.4,"?",1.1,NA
+"500",261,"Hochalemannisch","Waldshut","129900","mittel","WT1","NoSo","3",0.97,"?",0.7,NA
+"505",262,"Mittelalemannisch","Bräunlingen","127324","mittel","VS3","NoSo","3",0.95,"?",0.73,"CK"
+"506",263,"Mittelalemannisch","Bräunlingen","127324","alt","VSALT2","NoSo","3",1.09,"?",0.81,"CK"
+"507",264,"Mittelalemannisch","Bräunlingen","127324","jung","VSJUNG1","NoSo","3",1.19,"?",0.54,"CK"
+"511",265,"Mittelalemannisch","Tuttlingen","130272","mittel","TUT3","NoSo","3",1.46,"?",1.01,"MG"
+"512",266,"Mittelalemannisch","Tuttlingen","130272","alt","TUTALT2","NoSo","3",1.26,"?",0.95,"MG"
+"513",267,"Mittelalemannisch","Tuttlingen","130272","jung","TUTJUNG1","NoSo","3",0.77,"?",0.5,"MG"
+"514",268,"Niederalemannisch","Ohlsbach","128482","mittel","OG2","NoSo","3",1.34,"RK",0.87,"CK"
+"515",269,"Niederalemannisch","Ohlsbach","128482","alt","OGALT","NoSo","3",1.31,"RK",1.07,"CK"
+"516",270,"Niederalemannisch","Ohlsbach","128482","jung","OGJUNG2","NoSo","3",0.88,"MBS",0.57,"CK"
+"520",271,"Nordniederdeutsch","Bad Segeberg","116678","alt","SEALT2","Inter","3",1.61,"MA",0.7,"CK"
+"521",272,"Nordniederdeutsch","Bad Segeberg","116678","mittel","SE2","Inter","3",1.57,"PL",0.7,NA
+"522",273,"Nordniederdeutsch","Bad Segeberg","116678","jung","SEJUNG1","Inter","3",1.67,"PL",0.61,"CK"
+"529",274,"Nordniederdeutsch","Oldenburg","107826","alt","OLALT3","Inter","3",1.57,"?",0.69,NA
+"530",275,"Nordniederdeutsch","Oldenburg","107826","mittel","OL5","Inter","3",1.45,"?",0.51,NA
+"531",276,"Nordniederdeutsch","Oldenburg","107826","jung","OLJUNG","Inter","3",1.94,NA,0.51,NA
+"541",277,"Mecklenburgisch-Vorpommersch","Schwerin","119248","mittel","SN2","Inter","3",1.34,"CK",0.54,"CK"
+"542",278,"Mecklenburgisch-Vorpommersch","Schwerin","119248","alt","SNALT2","Inter","3",1.36,"MA",0.7,"CK"
+"543",279,"Mecklenburgisch-Vorpommersch","Schwerin","119248","jung","SNJUNG1","Inter","3",1.65,"MA",0.72,"CK"
+"547",280,"Mecklenburgisch-Vorpommersch","Bergen","118712","mittel","RUEG1","Inter","3",1.85,"LV",1.1,NA
+"548",281,"Mecklenburgisch-Vorpommersch","Bergen","118712","alt","RUEGALT2","Inter","3",2.13,"LV",1.4,NA
+"549",282,"Mecklenburgisch-Vorpommersch","Bergen","118712","jung","RUEGJUNG1","Inter","3",1.97,"LV",1.1,NA
+"559",283,"Brandenburgisch","Potsdam","125116","mittel","P9","Inter","3",1.89,"?",1.04,"SL"
+"560",284,"Brandenburgisch","Potsdam","125116","alt","PALT1","Inter","3",1.69,"?",0.94,"SL"
+"561",285,"Brandenburgisch","Potsdam","125116","jung","PJUNG1","Inter","3",1.61,"?",0.91,"SL"
+"562",286,"Brandenburgisch","Pritzwalk","125032","mittel","PR1","Inter","3",1.84,"?",0.97,"SL"
+"563",287,"Brandenburgisch","Pritzwalk","125032","alt","PRALT2","Inter","3",2.57,"?",1.43,"SL"
+"564",288,"Brandenburgisch","Pritzwalk","125032","jung","PRJUNG2","Inter","3",1.79,"?",0.71,"SL"
+"574",289,"Westfälisch","Borken","102881","mittel","BOR2","Inter","3",1.71,"?",0.57,NA
+"575",290,"Westfälisch","Borken","102881","alt","BORALT1","Inter","3",1.45,"?",0.8,NA
+"576",291,"Westfälisch","Borken","102881","jung","BORJUNG1","Inter","3",1.86,"?",0.6,NA
+"577",292,"Westfälisch","Hagen","103064","alt","HAALT1","Inter","3",1.19,"?",0.54,NA
+"578",293,"Westfälisch","Hagen","103064","mittel","HA4","Inter","3",1.43,"?",0.62,NA
+"579",294,"Westfälisch","Hagen","103064","jung","HAJUNG1","Inter","3",2.8,"?",0.31,NA
+"580",295,"Westfälisch","Gütersloh","101621","alt","GTALT2","Inter","3",1.75,"?",0.61,NA
+"581",296,"Westfälisch","Gütersloh","101621","mittel","GT3","Inter","3",1.4,"?",0.53,NA
+"582",297,"Westfälisch","Gütersloh","101621","jung","GTJUNG2","Inter","3",1.22,"?",0.27,NA
+"583",298,"Westfälisch","Horn-Bad Meinberg","102973","alt","LIPALT1","Inter","3",1.8,"?",1.01,NA
+"584",299,"Westfälisch","Horn-Bad Meinberg","102973","mittel","LIP5","Inter","3",1.18,"?",0.55,NA
+"585",300,"Westfälisch","Horn-Bad Meinberg","102973","jung","LIPJUNG2","Inter","3",1.13,"?",0.23,NA
+"586",301,"Westfälisch","Drolshagen","101533","alt","OEALT2","Inter","3",1.33,"?",0.95,NA
+"587",302,"Westfälisch","Drolshagen","101533","mittel","OE7","Inter","3",1.32,"?",0.55,NA
+"588",303,"Westfälisch","Drolshagen","101533","jung","OEJUNG","Inter","3",1.41,"?",0.52,NA
+"589",304,"Ostfälisch","Halberstadt","125017","alt","HBSALT2","Inter","3",1.36,"HB",0.86,"MG"
+"590",305,"Ostfälisch","Halberstadt","125017","mittel","HBS9","Inter","3",1.74,"HB",0.92,"MG"
+"591",306,"Ostfälisch","Halberstadt","125017","jung","HBSJUNG2","Inter","3",1.19,"HB",0.5,"MG"
+"595",307,"Ostfälisch","Northeim","107905","mittel","NOM3","Inter","3",2.05,"PL",0.86,"CK"
+"596",308,"Ostfälisch","Northeim","107905","alt","NOMALT1","Inter","3",2.06,"HB",0.97,"CK"
+"597",309,"Ostfälisch","Northeim","107905","jung","NOMJUNG","Inter","3",1.59,"HB",0.68,"CK"
+"601",310,"Ripuarisch","Bergisch-Gladbach","135950","alt","GLALT1","Inter","3",1.66,"?",1.3,NA
+"602",311,"Ripuarisch","Bergisch-Gladbach","135950","mittel","GL3","Inter","3",1.78,"?",1.3,NA
+"607",312,"Ripuarisch","Troisdorf","134279","alt","SUALT","Inter","3",1.48,"?",1.2,NA
+"608",313,"Ripuarisch","Troisdorf","134279","mittel","SU1","Inter","3",1.48,"?",1.3,NA
+"610",314,"Ripuarisch-Niederfränkisch","Krefeld","135092","alt","KRALT3","Inter","3",1.63,"?",1.2,NA
+"611",315,"Ripuarisch-Niederfränkisch","Krefeld","135092","mittel","KR5","Inter","3",1.44,"?",1.3,NA
+"612",316,"Ripuarisch-Niederfränkisch","Krefeld","135092","jung","KRJUNG1","Inter","3",1.54,"?",1.2,NA
+"613",317,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","alt","MGALT","Inter","3",1.64,"?",1.3,NA
+"614",318,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","mittel","MG6","Inter","3",1.74,"?",1.3,NA
+"631",319,"Rheinfränkisch","Kaiserslautern","100327","mittel","KL3","Inter","3",1.35,"PL",0.96,"CK"
+"632",320,"Rheinfränkisch","Kaiserslautern","100327","alt","KLALT1","Inter","3",1.87,"PL",1.43,"CK"
+"633",321,"Rheinfränkisch","Kaiserslautern","100327","jung","KLJUNG1","Inter","3",1.66,"HB",0.86,"CK"
+"637",322,"Rheinfränkisch","Reinheim","99678","alt","DAALT2","Inter","3",2.1,"?",1.6,NA
+"639",323,"Rheinfränkisch","Reinheim","99678","jung","DAJUNG1","Inter","3",2,"?",1.3,NA
+"646",324,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","mittel","MZ7","Inter","2",1.51,"?",1.04,"?"
+"652",325,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","alt","FALT1","Inter","3",2.01,"?",1.8,NA
+"653",326,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","mittel","F1","Inter","3",1.57,"?",1.4,NA
+"654",327,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","jung","FJUNG1","Inter","3",1.96,"?",1,NA
+"658",328,"Nordhessisch","Homberg","96619","mittel","HR4","Inter","3",1.66,"NZ",1.07,"CK"
+"659",329,"Nordhessisch","Homberg","96619","alt","HRALT2","Inter","3",1.18,"PL",0.75,"CK"
+"660",330,"Nordhessisch","Homberg","96619","jung","HRJUNG1","Inter","3",1.65,"HB",0.92,"CK"
+"664",331,"Zentralhessisch","Bad Nauheim","99815","alt","FBALT2","Inter","3",2.67,"?",2,NA
+"665",332,"Zentralhessisch","Bad Nauheim","99815","mittel","FB1","Inter","3",1.5,"?",1.1,NA
+"666",333,"Zentralhessisch","Bad Nauheim","99815","jung","FBJUNG1","Inter","3",1.88,"?",1,NA
+"667",334,"Zentralhessisch","Büdingen","99973","alt","BÜDALT1","Inter","3",2.15,"?",2.1,NA
+"668",335,"Zentralhessisch","Büdingen","99973","mittel","BÜD3","Inter","3",1.69,"?",1.4,NA
+"669",336,"Zentralhessisch","Büdingen","99973","jung","BÜDJUNG1","Inter","3",1.57,"?",0.9,NA
+"670",337,"Zentralhessisch","Gießen","96713","alt","GIALT1","Inter","3",1.94,"?",1.3,NA
+"671",338,"Zentralhessisch","Gießen","96713","mittel","GI11","Inter","3",2.23,"?",1.2,NA
+"672",339,"Zentralhessisch","Gießen","96713","jung","GIJUNG","Inter","3",2.06,"?",1,NA
+"673",340,"Zentralhessisch","Ulrichstein","94901","alt","VBALT2","Inter","3",2.16,"?",1.7,NA
+"674",341,"Zentralhessisch","Ulrichstein","94901","mittel","VB2","Inter","3",1.8,"?",1.4,NA
+"675",342,"Zentralhessisch","Ulrichstein","94901","jung","VBJUNG1","Inter","3",2.23,"?",1.3,NA
+"676",343,"Osthessisch","Hofbieber","100236","alt","FDALT3","Inter","3",1.44,"PL",1.13,"CK"
+"677",344,"Osthessisch","Hofbieber","100236","mittel","FD4","Inter","3",1.08,"PL",0.85,"CK"
+"678",345,"Osthessisch","Hofbieber","100236","jung","FDJUNG1","Inter","3",1.49,"PL",1.04,"CK"
+"685",346,"Thüringisch","Sondershausen","141165","alt","KYFALT2","Inter","3",2.54,"?",2,NA
+"686",347,"Thüringisch","Sondershausen","141165","mittel","KYF5","Inter","3",2.11,"?",1.7,NA
+"689",348,"Thüringisch-Obersächsisch","Gera","139192","mittel","G2","Inter","3",2.14,"?",1.4,NA
+"694",349,"Obersächsisch","Dresden","137577","alt","DDALT","Inter","3",1.93,"?",1.2,NA
+"695",350,"Obersächsisch","Dresden","137577","mittel","DD4","Inter","3",1.79,"?",1,NA
+"696",351,"Obersächsisch","Dresden","137577","jung","DDJUNG2","Inter","3",1.55,"?",0.9,NA
+"698",352,"Obersächsisch","Reichenbach","137668","mittel","Z9","Inter","3",2.35,"?",2,NA
+"703",353,"Ostfränkisch","Ansbach","92718","alt","ANALT2","Inter","3",1.91,"?",1.41,"CK"
+"704",354,"Ostfränkisch","Ansbach","92718","mittel","AN3","Inter","3",2.17,"?",1.26,"CK"
+"705",355,"Ostfränkisch","Ansbach","92718","jung","ANJUNG","Inter","3",2.08,"?",1.28,"CK"
+"712",356,"Nordbairisch","Hirschau","82073","alt","AMALT1","Inter","3",2.43,"?",2,NA
+"713",357,"Nordbairisch","Hirschau","82073","mittel","AM3","Inter","3",2.46,"?",1.9,NA
+"715",358,"Nordbairisch","Weiden","73125","alt","WENALT2","Inter","3",2.04,"?",1.7,NA
+"718",359,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","alt","INALT1","Inter","3",1.83,"?",1.7,NA
+"719",360,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","mittel","IN6","Inter","3",2.33,"?",2,NA
+"721",361,"Nordbairisch-Mittelbairisch","Regensburg","77282","alt","RALT1","Inter","3",2.19,"?",1.5,NA
+"722",362,"Nordbairisch-Mittelbairisch","Regensburg","77282","mittel","R3","Inter","3",2.6,"?",2.3,NA
+"724",363,"Mittelbairisch","München","73556","alt","MALT1","Inter","3",2.37,"?",1.9,NA
+"725",364,"Mittelbairisch","München","73556","mittel","M9","Inter","3",2.66,"?",2.2,NA
+"742",365,"Schwäbisch","Kaufbeuren","83571","alt","KFALT3","Inter","3",1.91,"?",1.5,NA
+"743",366,"Schwäbisch","Kaufbeuren","83571","mittel","KF1","Inter","3",2.09,"?",1.8,NA
+"744",367,"Schwäbisch","Kaufbeuren","83571","jung","KFJUNG1","Inter","3",1.5,"?",1.1,NA
+"745",368,"Schwäbisch","Ulm","127525","alt","ULALT1","Inter","3",2.5,"?",2.1,NA
+"746",369,"Schwäbisch","Ulm","127525","mittel","UL1","Inter","3",2.22,"?",1.7,NA
+"747",370,"Schwäbisch","Ulm","127525","jung","ULJUNG2","Inter","3",1.94,"?",1.9,NA
+"748",371,"Schwäbisch","Balingen","129371","alt","BLALT1","Inter","3",2.53,"?",2.2,NA
+"749",372,"Schwäbisch","Balingen","129371","mittel","BL2","Inter","3",2.34,"?",2,NA
+"750",373,"Schwäbisch","Balingen","129371","jung","BLJUNG1","Inter","3",1.42,"?",1.2,NA
+"751",374,"Schwäbisch","Rudersberg","131121","alt","WNALT1","Inter","3",1.61,"MA",1.4,NA
+"752",375,"Schwäbisch","Rudersberg","131121","mittel","WN3","Inter","3",2.07,"?",2,NA
+"754",376,"Schwäbisch","Blindheim","78986","alt","DLGALT2","Inter","3",1.81,"?",1.6,NA
+"755",377,"Schwäbisch","Blindheim","78986","mittel","DLG1","Inter","3",2.08,"?",1.8,NA
+"756",378,"Schwäbisch","Blindheim","78986","jung","DLGJUNG2","Inter","3",1.67,"?",1.5,NA
+"763",379,"Mittelalemannisch","Bräunlingen","127324","mittel","VS3","Inter","3",1.99,"PL",1.27,"CK"
+"764",380,"Mittelalemannisch","Bräunlingen","127324","alt","VSALT2","Inter","3",2,"PL",1.46,"CK"
+"765",381,"Mittelalemannisch","Bräunlingen","127324","jung","VSJUNG1","Inter","3",1.86,"PL",1.4,"CK"
+"769",382,"Mittelalemannisch","Tuttlingen","130272","mittel","TUT3","Inter","3",2.26,"PL",1.63,"MG"
+"770",383,"Mittelalemannisch","Tuttlingen","130272","alt","TUTALT2","Inter","3",1.72,"PL",1.15,"MG"
+"771",384,"Mittelalemannisch","Tuttlingen","130272","jung","TUTJUNG1","Inter","3",1.19,"?",0.64,"MG"
+"772",385,"Niederalemannisch","Ohlsbach","128482","mittel","OG2","Inter","3",1.99,"PL",1.41,"CK"
+"773",386,"Niederalemannisch","Ohlsbach","128482","alt","OGALT","Inter","3",2.54,"MA",1.98,"CK"
+"774",387,"Niederalemannisch","Ohlsbach","128482","jung","OGJUNG2","Inter","3",1.75,"MBS",1.26,"CK"
+"778",388,"Nordniederdeutsch","Bad Segeberg","116678","alt","SEALT2","FG","3",2.72,"MA",1.91,"CK"
+"779",389,"Nordniederdeutsch","Bad Segeberg","116678","mittel","SE2","FG","3",1.53,"CK",0.89,"CK"
+"780",390,"Nordniederdeutsch","Bad Segeberg","116678","jung","SEJUNG1","FG","3",1.58,"MA",0.57,"CK"
+"787",391,"Nordniederdeutsch","Oldenburg","107826","alt","OLALT3","FG","3",2.93,"?",2.28,NA
+"788",392,"Nordniederdeutsch","Oldenburg","107826","mittel","OL5","FG","3",1.58,"?",0.61,NA
+"789",393,"Nordniederdeutsch","Oldenburg","107826","jung","OLJUNG","FG","3",1.83,"?",0.49,NA
+"799",394,"Mecklenburgisch-Vorpommersch","Schwerin","119248","mittel","SN2","FG","3",1.38,"MA",0.65,"CK"
+"800",395,"Mecklenburgisch-Vorpommersch","Schwerin","119248","alt","SNALT2","FG","3",2.36,"MA",1.74,"CK"
+"801",396,"Mecklenburgisch-Vorpommersch","Schwerin","119248","jung","SNJUNG1","FG","3",1.7,"NZ",0.73,"CK"
+"805",397,"Mecklenburgisch-Vorpommersch","Bergen","118712","mittel","RUEG1","FG","3",1.81,"LV",1.2,NA
+"806",398,"Mecklenburgisch-Vorpommersch","Bergen","118712","alt","RUEGALT2","FG","3",3.06,"LV",2.7,NA
+"807",399,"Mecklenburgisch-Vorpommersch","Bergen","118712","jung","RUEGJUNG1","FG","3",1.86,NA,1.1,NA
+"817",400,"Brandenburgisch","Potsdam","125116","mittel","P9","FG","3",1.92,"?",1.2,"SL"
+"818",401,"Brandenburgisch","Potsdam","125116","alt","PALT1","FG","3",1.7,"?",0.91,"SL"
+"819",402,"Brandenburgisch","Potsdam","125116","jung","PJUNG1","FG","3",1.51,"?",0.72,"SL"
+"820",403,"Brandenburgisch","Pritzwalk","125032","mittel","PR1","FG","3",2.01,"?",0.93,"SL"
+"821",404,"Brandenburgisch","Pritzwalk","125032","alt","PRALT2","FG","3",1.83,"?",1,"SL"
+"822",405,"Brandenburgisch","Pritzwalk","125032","jung","PRJUNG2","FG","3",2.25,"?",1.24,"SL"
+"832",406,"Westfälisch","Borken","102881","mittel","BOR2","FG","3",1.23,"?",0.53,NA
+"833",407,"Westfälisch","Borken","102881","alt","BORALT1","FG","3",2.42,"?",2.01,NA
+"834",408,"Westfälisch","Borken","102881","jung","BORJUNG1","FG","3",1.53,"?",0.61,NA
+"835",409,"Westfälisch","Hagen","103064","alt","HAALT1","FG","3",1.29,"?",0.72,NA
+"836",410,"Westfälisch","Hagen","103064","mittel","HA4","FG","3",1.59,"?",0.93,NA
+"837",411,"Westfälisch","Hagen","103064","jung","HAJUNG1","FG","3",1.37,"?",0.3,NA
+"838",412,"Westfälisch","Gütersloh","101621","alt","GTALT2","FG","3",2.2,"?",1.84,NA
+"839",413,"Westfälisch","Gütersloh","101621","mittel","GT3","FG","3",1.44,"?",0.55,NA
+"840",414,"Westfälisch","Gütersloh","101621","jung","GTJUNG2","FG","3",1.31,"?",0.27,NA
+"841",415,"Westfälisch","Horn-Bad Meinberg","102973","alt","LIPALT1","FG","3",1.45,"?",0.65,NA
+"842",416,"Westfälisch","Horn-Bad Meinberg","102973","mittel","LIP5","FG","3",1.47,"?",0.62,NA
+"843",417,"Westfälisch","Horn-Bad Meinberg","102973","jung","LIPJUNG2","FG","3",0.82,"?",0.2,NA
+"844",418,"Westfälisch","Drolshagen","101533","alt","OEALT2","FG","3",2.3,"?",1.87,NA
+"845",419,"Westfälisch","Drolshagen","101533","mittel","OE7","FG","3",1.41,"?",0.73,NA
+"846",420,"Westfälisch","Drolshagen","101533","jung","OEJUNG","FG","3",1.56,"?",0.75,NA
+"847",421,"Ostfälisch","Halberstadt","125017","alt","HBSALT2","FG","3",1.62,"NZ",0.9,"MG"
+"848",422,"Ostfälisch","Halberstadt","125017","mittel","HBS9","FG","3",1.64,"MA",0.91,"MG"
+"849",423,"Ostfälisch","Halberstadt","125017","jung","HBSJUNG2","FG","3",0.95,"MA",0.4,"MG"
+"853",424,"Ostfälisch","Northeim","107905","mittel","NOM3","FG","3",2.33,"RK",0.98,"CK"
+"854",425,"Ostfälisch","Northeim","107905","alt","NOMALT1","FG","3",2.23,"FH",1.4,"CK"
+"855",426,"Ostfälisch","Northeim","107905","jung","NOMJUNG","FG","3",1.79,"MA",0.85,"CK"
+"859",427,"Ripuarisch","Bergisch-Gladbach","135950","alt","GLALT1","FG","3",2.2,"?",2,NA
+"860",428,"Ripuarisch","Bergisch-Gladbach","135950","mittel","GL3","FG","3",1.62,"?",1.3,NA
+"865",429,"Ripuarisch","Troisdorf","134279","alt","SUALT","FG","3",2.31,"?",2.1,NA
+"866",430,"Ripuarisch","Troisdorf","134279","mittel","SU1","FG","3",2.11,"?",1.8,NA
+"867",431,"Ripuarisch","Troisdorf","134279","jung","SUJUNG2","FG","3",1.32,"?",1.1,NA
+"868",432,"Ripuarisch-Niederfränkisch","Krefeld","135092","alt","KRALT3","FG","3",2.31,"?",2,NA
+"869",433,"Ripuarisch-Niederfränkisch","Krefeld","135092","mittel","KR5","FG","3",1.74,"?",1.6,NA
+"871",434,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","alt","MGALT","FG","3",2.24,"?",2.1,NA
+"872",435,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","mittel","MG6","FG","3",1.51,"?",1.2,NA
+"886",436,"Rheinfränkisch","Heidelberg","132828","mittel","HD7","FG","2",2.12,"?",1.47,"?"
+"889",437,"Rheinfränkisch","Kaiserslautern","100327","mittel","KL3","FG","3",2.19,"PL",1.61,"CK"
+"890",438,"Rheinfränkisch","Kaiserslautern","100327","alt","KLALT1","FG","3",1.69,"NZ",1.16,"CK"
+"891",439,"Rheinfränkisch","Kaiserslautern","100327","jung","KLJUNG1","FG","3",2.33,"FH",1.71,"CK"
+"895",440,"Rheinfränkisch","Reinheim","99678","alt","DAALT2","FG","3",2.91,"?",2,NA
+"897",441,"Rheinfränkisch","Reinheim","99678","jung","DAJUNG1","FG","3",1.81,"?",1.3,NA
+"904",442,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","mittel","MZ7","FG","2",1.59,"?",1.2,"?"
+"910",443,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","alt","FALT1","FG","3",1.97,"?",1.9,NA
+"911",444,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","mittel","F1","FG","3",2.07,"?",1.8,NA
+"912",445,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","jung","FJUNG1","FG","3",1.78,"?",1.1,NA
+"916",446,"Nordhessisch","Homberg","96619","mittel","HR4","FG","3",1.65,"MG",1.08,"MG"
+"917",447,"Nordhessisch","Homberg","96619","alt","HRALT2","FG","3",1.22,"RK",0.92,"CK"
+"918",448,"Nordhessisch","Homberg","96619","jung","HRJUNG1","FG","3",1.49,"PL",1.03,"CK"
+"922",449,"Zentralhessisch","Bad Nauheim","99815","alt","FBALT2","FG","3",2.54,"?",2.1,NA
+"923",450,"Zentralhessisch","Bad Nauheim","99815","mittel","FB1","FG","3",1.74,"?",1.3,NA
+"924",451,"Zentralhessisch","Bad Nauheim","99815","jung","FBJUNG1","FG","3",2.06,"?",1.1,NA
+"925",452,"Zentralhessisch","Büdingen","99973","alt","BÜDALT1","FG","3",2.37,"?",2.2,NA
+"926",453,"Zentralhessisch","Büdingen","99973","mittel","BÜD3","FG","3",1.91,"?",1.6,NA
+"927",454,"Zentralhessisch","Büdingen","99973","jung","BÜDJUNG1","FG","3",1.56,"?",1,NA
+"929",455,"Zentralhessisch","Gießen","96713","mittel","GI11","FG","3",2.08,"?",1.3,NA
+"930",456,"Zentralhessisch","Gießen","96713","jung","GIJUNG","FG","3",2.14,"?",1.1,NA
+"931",457,"Zentralhessisch","Ulrichstein","94901","alt","VBALT2","FG","3",3.08,"?",2.5,NA
+"933",458,"Zentralhessisch","Ulrichstein","94901","jung","VBJUNG1","FG","3",3.01,"?",2.5,NA
+"934",459,"Osthessisch","Hofbieber","100236","alt","FDALT3","FG","3",2.34,"MA",1.99,"CK"
+"935",460,"Osthessisch","Hofbieber","100236","mittel","FD4","FG","3",2.1,"PL",1.97,"CK"
+"936",461,"Osthessisch","Hofbieber","100236","jung","FDJUNG1","FG","3",1.42,"PL",0.94,"CK"
+"943",462,"Thüringisch","Sondershausen","141165","alt","KYFALT2","FG","3",2.56,"?",2.4,NA
+"944",463,"Thüringisch","Sondershausen","141165","mittel","KYF5","FG","3",2.08,"?",1.6,NA
+"947",464,"Thüringisch-Obersächsisch","Gera","139192","mittel","G2","FG","3",2.35,"?",1.3,NA
+"952",465,"Obersächsisch","Dresden","137577","alt","DDALT","FG","3",1.81,"MB",1.3,NA
+"953",466,"Obersächsisch","Dresden","137577","mittel","DD4","FG","3",2.08,"?",1.1,NA
+"954",467,"Obersächsisch","Dresden","137577","jung","DDJUNG2","FG","3",1.51,"?",1,NA
+"956",468,"Obersächsisch","Reichenbach","137668","mittel","Z9","FG","3",2.83,"?",2,NA
+"960",469,"Nordobersächsisch","Dessau","120091","jung","DEJUNG1","FG","2",1.66,"?",0.3,NA
+"961",470,"Ostfränkisch","Ansbach","92718","alt","ANALT2","FG","3",2.24,"?",1.71,"CK"
+"962",471,"Ostfränkisch","Ansbach","92718","mittel","AN3","FG","3",2.24,"?",1.74,"CK"
+"963",472,"Ostfränkisch","Ansbach","92718","jung","ANJUNG","FG","3",2.42,"?",1.58,"CK"
+"970",473,"Nordbairisch","Hirschau","82073","alt","AMALT1","FG","3",2.93,"?",2.6,NA
+"971",474,"Nordbairisch","Hirschau","82073","mittel","AM3","FG","3",2.75,"?",2.4,NA
+"973",475,"Nordbairisch","Weiden","73125","alt","WENALT2","FG","3",2.54,"?",2.4,NA
+"974",476,"Nordbairisch","Weiden","73125","mittel","WEN2","FG","3",2.41,"?",2,NA
+"976",477,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","alt","INALT1","FG","3",2.56,"?",2.2,NA
+"977",478,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","mittel","IN6","FG","3",2.76,"?",2.5,NA
+"979",479,"Nordbairisch-Mittelbairisch","Regensburg","77282","alt","RALT1","FG","3",2.6,"?",2.1,NA
+"980",480,"Nordbairisch-Mittelbairisch","Regensburg","77282","mittel","R3","FG","3",2.73,"?",2.4,NA
+"983",481,"Mittelbairisch","München","73556","mittel","M9","FG","3",2.53,"?",2.3,NA
+"988",482,"Mittelbairisch","Trostberg","75512","alt","TSALT1","FG","3",2.73,"MB",2.3,NA
+"989",483,"Mittelbairisch","Trostberg","75512","mittel","TS2","FG","3",2.92,"MB",2.1,NA
+"1000",484,"Schwäbisch","Kaufbeuren","83571","alt","KFALT3","FG","3",2.69,"?",2.5,NA
+"1001",485,"Schwäbisch","Kaufbeuren","83571","mittel","KF1","FG","3",2.2,"?",1.9,NA
+"1002",486,"Schwäbisch","Kaufbeuren","83571","jung","KFJUNG1","FG","3",1.36,"?",1,NA
+"1003",487,"Schwäbisch","Ulm","127525","alt","ULALT1","FG","3",2.78,"?",2.4,NA
+"1004",488,"Schwäbisch","Ulm","127525","mittel","UL1","FG","3",2.82,"?",2.3,NA
+"1005",489,"Schwäbisch","Ulm","127525","jung","ULJUNG2","FG","3",2.3,"?",2.1,NA
+"1006",490,"Schwäbisch","Balingen","129371","alt","BLALT1","FG","3",2.49,"?",2.4,NA
+"1007",491,"Schwäbisch","Balingen","129371","mittel","BL2","FG","3",2.52,"?",2.2,NA
+"1008",492,"Schwäbisch","Balingen","129371","jung","BLJUNG1","FG","3",1.37,"?",1.4,NA
+"1009",493,"Schwäbisch","Rudersberg","131121","alt","WNALT1","FG","3",2.69,"MA",2.5,NA
+"1011",494,"Schwäbisch","Rudersberg","131121","jung","WNJUNG1","FG","3",1.54,"MBS",1.4,NA
+"1012",495,"Schwäbisch","Blindheim","78986","alt","DLGALT2","FG","3",2.42,"?",2.3,NA
+"1013",496,"Schwäbisch","Blindheim","78986","mittel","DLG1","FG","3",2.49,"?",2.1,NA
+"1014",497,"Schwäbisch","Blindheim","78986","jung","DLGJUNG2","FG","3",2.04,"?",1.6,NA
+"1021",498,"Mittelalemannisch","Bräunlingen","127324","mittel","VS3","FG","3",2.11,"PL",1.53,"CK"
+"1022",499,"Mittelalemannisch","Bräunlingen","127324","alt","VSALT2","FG","3",2.26,"PL",1.77,"CK"
+"1023",500,"Mittelalemannisch","Bräunlingen","127324","jung","VSJUNG1","FG","3",2.19,"?",1.82,"CK"
+"1027",501,"Mittelalemannisch","Tuttlingen","130272","mittel","TUT3","FG","3",2.23,"PL",1.82,"MG"
+"1028",502,"Mittelalemannisch","Tuttlingen","130272","alt","TUTALT2","FG","3",2.32,"PL",1.65,"MG"
+"1029",503,"Mittelalemannisch","Tuttlingen","130272","jung","TUTJUNG1","FG","3",1.58,"PL",0.83,"MG"
+"1030",504,"Niederalemannisch","Ohlsbach","128482","mittel","OG2","FG","3",2.19,"?",1.98,"CK"
+"1031",505,"Niederalemannisch","Ohlsbach","128482","alt","OGALT","FG","3",2.81,"SF",2.31,"CK"
+"1032",506,"Niederalemannisch","Ohlsbach","128482","jung","OGJUNG2","FG","3",2.22,"TP",1.89,"CK"
+"1033",507,"Nordniederdeutsch","Alt Duvenstedt","108151","alt","RDALT","WSD","3",3.02,"?",2.7,NA
+"1034",508,"Nordniederdeutsch","Alt Duvenstedt","108151","mittel","RD5","WSD","3",2.44,"?",2.1,NA
+"1036",509,"Nordniederdeutsch","Bad Segeberg","116678","alt","SEALT2","WSD","3",2.67,"MA",2.19,"CK"
+"1045",510,"Nordniederdeutsch","Oldenburg","107826","alt","OLALT3","WSD","3",2.84,"?",2.58,NA
+"1057",511,"Mecklenburgisch-Vorpommersch","Schwerin","119248","mittel","SN2","WSD","3",2.73,"PL",2.21,"CK"
+"1058",512,"Mecklenburgisch-Vorpommersch","Schwerin","119248","alt","SNALT2","WSD","3",2.75,"CK",2.2,"CK"
+"1063",513,"Mecklenburgisch-Vorpommersch","Bergen","118712","mittel","RUEG1","WSD","3",2.01,"LV",1.8,"LV"
+"1064",514,"Mecklenburgisch-Vorpommersch","Bergen","118712","alt","RUEGALT2","WSD","3",3.09,"PL",2.8,"LV"
+"1075",515,"Brandenburgisch","Potsdam","125116","mittel","P9","WSD","3",1.26,"?",0.69,"SL"
+"1076",516,"Brandenburgisch","Potsdam","125116","alt","PALT1","WSD","3",1.35,"?",0.77,"SL"
+"1077",517,"Brandenburgisch","Potsdam","125116","jung","PJUNG1","WSD","3",1.23,"?",0.64,"SL"
+"1078",518,"Brandenburgisch","Pritzwalk","125032","mittel","PR1","WSD","3",2.33,"?",1.78,"SL"
+"1079",519,"Brandenburgisch","Pritzwalk","125032","alt","PRALT2","WSD","3",2.43,"?",1.84,"SL"
+"1080",520,"Brandenburgisch","Pritzwalk","125032","jung","PRJUNG2","WSD","3",1.78,"?",1,"SL"
+"1090",521,"Westfälisch","Borken","102881","mittel","BOR2","WSD","3",2.59,"?",2.3,NA
+"1091",522,"Westfälisch","Borken","102881","alt","BORALT1","WSD","3",2.77,"?",2.54,NA
+"1092",523,"Westfälisch","Borken","102881","jung","BORJUNG1","WSD","3",1.43,"?",0.87,NA
+"1093",524,"Westfälisch","Hagen","103064","alt","HAALT1","WSD","3",2.8,"?",2.45,NA
+"1094",525,"Westfälisch","Hagen","103064","mittel","HA4","WSD","3",1.06,"?",0.75,NA
+"1095",526,"Westfälisch","Hagen","103064","jung","HAJUNG1","WSD","3",1.1,"?",0.52,NA
+"1096",527,"Westfälisch","Gütersloh","101621","alt","GTALT2","WSD","3",2.83,"?",2.68,NA
+"1097",528,"Westfälisch","Gütersloh","101621","mittel","GT3","WSD","3",0.73,"?",0.46,NA
+"1098",529,"Westfälisch","Gütersloh","101621","jung","GTJUNG2","WSD","3",1,"?",0.34,NA
+"1099",530,"Westfälisch","Horn-Bad Meinberg","102973","alt","LIPALT1","WSD","3",2.96,"MB",2.6,NA
+"1101",531,"Westfälisch","Horn-Bad Meinberg","102973","jung","LIPJUNG2","WSD","3",0.53,"?",1.07,NA
+"1102",532,"Westfälisch","Drolshagen","101533","alt","OEALT2","WSD","3",3.1,"?",2.8,NA
+"1103",533,"Westfälisch","Drolshagen","101533","mittel","OE7","WSD","3",2.39,"?",2.2,NA
+"1104",534,"Westfälisch","Drolshagen","101533","jung","OEJUNG","WSD","3",1.05,"MA",0.42,NA
+"1105",535,"Ostfälisch","Halberstadt","125017","alt","HBSALT2","WSD","3",1.29,"MA",0.81,"MG"
+"1106",536,"Ostfälisch","Halberstadt","125017","mittel","HBS9","WSD","3",0.98,"MA",0.53,"MG"
+"1107",537,"Ostfälisch","Halberstadt","125017","jung","HBSJUNG2","WSD","3",1.37,"PL",1.1,"MG"
+"1111",538,"Ostfälisch","Northeim","107905","mittel","NOM3","WSD","3",1.71,"MA",1.11,"CK"
+"1112",539,"Ostfälisch","Northeim","107905","alt","NOMALT1","WSD","3",2.66,"MA",1.92,"CK"
+"1113",540,"Ostfälisch","Northeim","107905","jung","NOMJUNG","WSD","3",1.83,"MA",1.27,"CK"
+"1118",541,"Ripuarisch","Bergisch-Gladbach","135950","mittel","GL3","WSD","3",1.75,"?",1.3,NA
+"1123",542,"Ripuarisch","Troisdorf","134279","alt","SUALT","WSD","3",2.64,"?",2,NA
+"1124",543,"Ripuarisch","Troisdorf","134279","mittel","SU1","WSD","3",2.23,"?",1.8,NA
+"1126",544,"Ripuarisch-Niederfränkisch","Krefeld","135092","alt","KRALT3","WSD","3",3.11,"?",2.6,NA
+"1127",545,"Ripuarisch-Niederfränkisch","Krefeld","135092","mittel","KR5","WSD","3",2.8,"?",2.5,NA
+"1129",546,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","alt","MGALT","WSD","3",2.84,"?",2.7,NA
+"1130",547,"Ripuarisch-Niederfränkisch","Mönchengladbach","136187","mittel","MG6","WSD","3",1.56,"?",1.2,NA
+"1138",548,"Moselfränkisch","Wittlich","100001","alt","WITALT1","WSD","3",2.21,"?",1.9,NA
+"1147",549,"Rheinfränkisch","Kaiserslautern","100327","mittel","KL3","WSD","3",2.03,"PL",1.62,"CK"
+"1148",550,"Rheinfränkisch","Kaiserslautern","100327","alt","KLALT1","WSD","3",2.24,"PL",1.93,"CK"
+"1149",551,"Rheinfränkisch","Kaiserslautern","100327","jung","KLJUNG1","WSD","3",2.01,"PL",1.75,"CK"
+"1153",552,"Rheinfränkisch","Reinheim","99678","alt","DAALT2","WSD","3",2.39,"?",2.1,NA
+"1155",553,"Rheinfränkisch","Reinheim","99678","jung","DAJUNG1","WSD","3",2.02,"?",1.5,NA
+"1162",554,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","mittel","MZ7","WSD","2",1.82,"?",1.62,"?"
+"1163",555,"Rheinfränkisch-Moselfränkisch-Zentralhessisch","Mainz","95700","alt","MZALT1","WSD","2",2.16,"?",1.79,"?"
+"1168",556,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","alt","FALT1","WSD","3",2.23,"?",2,NA
+"1169",557,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","mittel","F1","WSD","3",1.84,"?",1.8,NA
+"1170",558,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","Frankfurt am Main","97616","jung","FJUNG1","WSD","3",1.5,"?",1.3,NA
+"1174",559,"Nordhessisch","Homberg","96619","mittel","HR4","WSD","3",2.29,"MA",1.9,"CK"
+"1175",560,"Nordhessisch","Homberg","96619","alt","HRALT2","WSD","3",1.93,"PL",1.7,"CK"
+"1176",561,"Nordhessisch","Homberg","96619","jung","HRJUNG1","WSD","3",1.28,"MA",0.95,"CK"
+"1180",562,"Zentralhessisch","Bad Nauheim","99815","alt","FBALT2","WSD","3",2.53,"?",2.2,NA
+"1181",563,"Zentralhessisch","Bad Nauheim","99815","mittel","FB1","WSD","3",2.28,"?",1.8,NA
+"1182",564,"Zentralhessisch","Bad Nauheim","99815","jung","FBJUNG1","WSD","3",1.76,"?",1.5,NA
+"1183",565,"Zentralhessisch","Büdingen","99973","alt","BÜDALT1","WSD","3",2.41,"?",2.2,NA
+"1184",566,"Zentralhessisch","Büdingen","99973","mittel","BÜD3","WSD","3",2.27,"?",2.1,NA
+"1185",567,"Zentralhessisch","Büdingen","99973","jung","BÜDJUNG1","WSD","3",2,"?",1.7,NA
+"1186",568,"Zentralhessisch","Gießen","96713","alt","GIALT1","WSD","3",2.41,"?",2,NA
+"1187",569,"Zentralhessisch","Gießen","96713","mittel","GI11","WSD","3",2.93,"?",2.2,NA
+"1188",570,"Zentralhessisch","Gießen","96713","jung","GIJUNG","WSD","3",1.97,"?",1.7,NA
+"1189",571,"Zentralhessisch","Ulrichstein","94901","alt","VBALT2","WSD","3",3.24,"?",2.9,NA
+"1190",572,"Zentralhessisch","Ulrichstein","94901","mittel","VB2","WSD","3",3.08,"?",2.6,NA
+"1191",573,"Zentralhessisch","Ulrichstein","94901","jung","VBJUNG1","WSD","3",2.93,"?",2.6,NA
+"1192",574,"Osthessisch","Hofbieber","100236","alt","FDALT3","WSD","3",2.47,"MA",2.34,"CK"
+"1193",575,"Osthessisch","Hofbieber","100236","mittel","FD4","WSD","3",2.37,"MA",2.3,"CK"
+"1194",576,"Osthessisch","Hofbieber","100236","jung","FDJUNG1","WSD","3",2.01,"MA",1.88,"CK"
+"1201",577,"Thüringisch","Sondershausen","141165","alt","KYFALT2","WSD","3",2.81,"?",2.5,NA
+"1202",578,"Thüringisch","Sondershausen","141165","mittel","KYF5","WSD","3",1.82,"?",1.3,NA
+"1205",579,"Thüringisch-Obersächsisch","Gera","139192","mittel","G2","WSD","3",1.77,"?",1.4,NA
+"1210",580,"Obersächsisch","Dresden","137577","alt","DDALT","WSD","3",1.28,"MB",1,NA
+"1211",581,"Obersächsisch","Dresden","137577","mittel","DD4","WSD","3",1.42,"?",1,NA
+"1212",582,"Obersächsisch","Dresden","137577","jung","DDJUNG2","WSD","3",1.62,"?",1.3,NA
+"1214",583,"Obersächsisch","Reichenbach","137668","mittel","Z9","WSD","3",2.43,"?",2.2,NA
+"1219",584,"Ostfränkisch","Ansbach","92718","alt","ANALT2","WSD","3",2.39,"?",1.86,"CK"
+"1220",585,"Ostfränkisch","Ansbach","92718","mittel","AN3","WSD","3",2.3,"?",1.84,"CK"
+"1221",586,"Ostfränkisch","Ansbach","92718","jung","ANJUNG","WSD","3",2.47,"?",1.85,"CK"
+"1222",587,"Ostfränkisch","Bamberg","85574","alt","BAALT","WSD","3",1.91,"?",1.7,NA
+"1228",588,"Nordbairisch","Hirschau","82073","alt","AMALT1","WSD","3",2.65,"?",2.5,NA
+"1229",589,"Nordbairisch","Hirschau","82073","mittel","AM3","WSD","3",2.47,"?",2.1,NA
+"1231",590,"Nordbairisch","Weiden","73125","alt","WENALT2","WSD","3",2.4,"?",2.4,NA
+"1232",591,"Nordbairisch","Weiden","73125","mittel","WEN2","WSD","3",2.58,"?",2,NA
+"1234",592,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","alt","INALT1","WSD","3",2.59,"?",2.4,NA
+"1235",593,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","mittel","IN6","WSD","3",2.77,"?",2.5,NA
+"1236",594,"Nordbairisch-Mittelbairisch","Ingolstadt","89888","jung","INJUNG1","WSD","3",2.37,"MB",2.3,NA
+"1237",595,"Nordbairisch-Mittelbairisch","Regensburg","77282","alt","RALT1","WSD","3",2.21,"?",2.2,NA
+"1238",596,"Nordbairisch-Mittelbairisch","Regensburg","77282","mittel","R3","WSD","3",2.49,"?",2.3,NA
+"1240",597,"Mittelbairisch","München","73556","alt","MALT1","WSD","3",2.8,"?",2.4,NA
+"1241",598,"Mittelbairisch","München","73556","mittel","M9","WSD","3",2.65,"?",2.4,NA
+"1246",599,"Mittelbairisch","Trostberg","75512","alt","TSALT1","WSD","3",2.73,"MB",2.4,NA
+"1247",600,"Mittelbairisch","Trostberg","75512","mittel","TS2","WSD","3",2.41,"MB",2.2,NA
+"1258",601,"Schwäbisch","Kaufbeuren","83571","alt","KFALT3","WSD","3",2.98,"?",2.7,NA
+"1259",602,"Schwäbisch","Kaufbeuren","83571","mittel","KF1","WSD","3",2.83,"?",2.6,NA
+"1260",603,"Schwäbisch","Kaufbeuren","83571","jung","KFJUNG1","WSD","3",2.27,"?",2.2,NA
+"1261",604,"Schwäbisch","Ulm","127525","alt","ULALT1","WSD","3",2.68,"?",2.6,NA
+"1262",605,"Schwäbisch","Ulm","127525","mittel","UL1","WSD","3",2.59,"?",2.3,NA
+"1263",606,"Schwäbisch","Ulm","127525","jung","ULJUNG2","WSD","3",2.42,"?",2.4,NA
+"1264",607,"Schwäbisch","Balingen","129371","alt","BLALT1","WSD","3",2.69,"?",2.7,NA
+"1265",608,"Schwäbisch","Balingen","129371","mittel","BL2","WSD","3",2.6,"?",2.5,NA
+"1266",609,"Schwäbisch","Balingen","129371","jung","BLJUNG1","WSD","3",2.31,"?",2.2,NA
+"1267",610,"Schwäbisch","Rudersberg","131121","alt","WNALT1","WSD","3",2.49,"MA",2.5,NA
+"1268",611,"Schwäbisch","Rudersberg","131121","mittel","WN3","WSD","3",2.45,"?",2.5,NA
+"1269",612,"Schwäbisch","Rudersberg","131121","jung","WNJUNG1","WSD","3",2.41,"MBS",2.3,NA
+"1270",613,"Schwäbisch","Blindheim","78986","alt","DLGALT2","WSD","3",2.46,"?",2.3,NA
+"1271",614,"Schwäbisch","Blindheim","78986","mittel","DLG1","WSD","3",2.53,"?",2.6,NA
+"1272",615,"Schwäbisch","Blindheim","78986","jung","DLGJUNG2","WSD","3",2.6,"?",2.5,NA
+"1279",616,"Mittelalemannisch","Bräunlingen","127324","mittel","VS3","WSD","3",2.63,"?",2.33,"CK"
+"1280",617,"Mittelalemannisch","Bräunlingen","127324","alt","VSALT2","WSD","3",2.69,"PL",2.42,"CK"
+"1281",618,"Mittelalemannisch","Bräunlingen","127324","jung","VSJUNG1","WSD","3",2.59,"?",2.32,"CK"
+"1285",619,"Mittelalemannisch","Tuttlingen","130272","mittel","TUT3","WSD","3",2.61,"?",2.07,"MG"
+"1286",620,"Mittelalemannisch","Tuttlingen","130272","alt","TUTALT2","WSD","3",2,"?",1.81,"MG"
+"1287",621,"Mittelalemannisch","Tuttlingen","130272","jung","TUTJUNG1","WSD","3",2.2,"?",1.83,"MG"
+"1288",622,"Niederalemannisch","Ohlsbach","128482","mittel","OG2","WSD","3",2.42,"PL",2.15,"CK"
+"1289",623,"Niederalemannisch","Ohlsbach","128482","alt","OGALT","WSD","3",2.5,"PL",2.21,"CK"
+"1290",624,"Niederalemannisch","Ohlsbach","128482","jung","OGJUNG2","WSD","3",2,"MBS",1.58,"CK"
