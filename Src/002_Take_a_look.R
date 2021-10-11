@@ -6,6 +6,9 @@ wds <- "C:/Envimaster/Evaluate_PAM/Src/"
 wdd <- "C:/Envimaster/Evaluate_PAM/Data/"
 
 # load package
+# devtools::install_github("SchoenbergA/PAMcorrection")
+
+# load package
 require(openxlsx)
 require(PAMcorrection)
 
