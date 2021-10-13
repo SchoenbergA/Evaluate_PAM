@@ -1,5 +1,10 @@
 ### Take a look on the Data
 
+# ensure latest verison of Package is used
+remove.packages("PAMcorrection")
+.rs.restartR()
+devtools::install_github("SchoenbergA/PAMcorrection")
+
 # set envi
 getwd()
 wds <- "C:/Envimaster/Evaluate_PAM/Src/"
@@ -19,7 +24,7 @@ head(full)
 
 # take a look
 PAMcorrection::estPAMcorr2(full,yl = 4)
-
+PAMcorrection::plotPAMcorr(df = full,yl=4)
 # set lines for type
 # prepare ablines
 unique(full$type)
