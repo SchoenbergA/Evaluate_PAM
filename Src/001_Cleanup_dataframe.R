@@ -43,36 +43,37 @@ dfc$ID <- 1:nrow(dfc)
 head(dfc)
 
 # add class for dialect (alternavtive code styling)
-#dfc$diaClass_hanna <- ifelse(grepl("^Nordniederdeutsch$|^Nordniederdeutsch-Ostfälisch$|^Mecklenburgisch-Vorpommersch$|^Mittelpommersch$|^Brandenburgisch-Südmärkisch$|^Brandenburgisch$", dfc$dilect), "nördliches Niederdeutsch",
-#ifelse(grepl("^Westfälisch$|^Ostfälisch$|^Ostfälisch-Brandenburgisch$", dfc$dilect), "südliches Niederdeutsch",
-#ifelse(grepl("^Ripuarisch$|^Ripuarisch-Niederfränkisch$|^Moselfränkisch$|^Moselfränkisch-Ripuarisch$|^Niederfränkisch$", dfc$dilect), "Westdeutsch",
-#ifelse(grepl("^Rheinfränkisch$|^Rheinfränkisch-Moselfränkisch$|^Rheinfränkisch-Moselfränkisch-Zentralhessisch$|^Rheinfränkisch-Ostfränkisch-Schwäbisch$|^Rheinfränkisch-Zentralhessisch-Moselfränkisch$|^Nordhessisch$|^Zentralhessisch$|^Osthessisch$", dfc$dilect), "westliches Mitteldeutsch",
-#ifelse(grepl("^Thüringisch$|^Thüringisch-Obersächsisch$|^Obersächsisch$|^Nordobersächsisch$", dfc$dilect), "östliches Mitteldeutsch",
-#ifelse(grepl("^Ostfränkisch$|^Nordbairisch$|^Nordbairisch-Mittelbairisch$|^Mittelbairisch$|^Südbairisch-Schwäbisch$", dfc$dilect), "Ostoberdeutsch",
-#ifelse(grepl("^Schwäbisch-Mittelbairisch$|^Schwäbisch$|^Hochalemannisch$|^Hochalemannisch/Niederalemannisch$|^Mittelalemannisch$|^Niederalemannisch$", dfc$dilect), "Westoberdeutsch",
+#dfc$diaClass_hanna <- ifelse(grepl("^Nordniederdeutsch$|^Nordniederdeutsch-OstfÃ¤lisch$|^Mecklenburgisch-Vorpommersch$|^Mittelpommersch$|^Brandenburgisch-SÃ¼dmÃ¤rkisch$|^Brandenburgisch$", dfc$dilect), "nÃ¶rdliches Niederdeutsch",
+#ifelse(grepl("^WestfÃ¤lisch$|^OstfÃ¤lisch$|^OstfÃ¤lisch-Brandenburgisch$", dfc$dilect), "sÃ¼dliches Niederdeutsch",
+#ifelse(grepl("^Ripuarisch$|^Ripuarisch-NiederfrÃ¤nkisch$|^MoselfrÃ¤nkisch$|^MoselfrÃ¤nkisch-Ripuarisch$|^NiederfrÃ¤nkisch$", dfc$dilect), "Westdeutsch",
+#ifelse(grepl("^RheinfrÃ¤nkisch$|^RheinfrÃ¤nkisch-MoselfrÃ¤nkisch$|^RheinfrÃ¤nkisch-MoselfrÃ¤nkisch-Zentralhessisch$|^RheinfrÃ¤nkisch-OstfrÃ¤nkisch-SchwÃ¤bisch$|^RheinfrÃ¤nkisch-Zentralhessisch-MoselfrÃ¤nkisch$|^Nordhessisch$|^Zentralhessisch$|^Osthessisch$", dfc$dilect), "westliches Mitteldeutsch",
+#ifelse(grepl("^ThÃ¼ringisch$|^ThÃ¼ringisch-ObersÃ¤chsisch$|^ObersÃ¤chsisch$|^NordobersÃ¤chsisch$", dfc$dilect), "Ã¶stliches Mitteldeutsch",
+#ifelse(grepl("^OstfrÃ¤nkisch$|^Nordbairisch$|^Nordbairisch-Mittelbairisch$|^Mittelbairisch$|^SÃ¼dbairisch-SchwÃ¤bisch$", dfc$dilect), "Ostoberdeutsch",
+#ifelse(grepl("^SchwÃ¤bisch-Mittelbairisch$|^SchwÃ¤bisch$|^Hochalemannisch$|^Hochalemannisch/Niederalemannisch$|^Mittelalemannisch$|^Niederalemannisch$", dfc$dilect), "Westoberdeutsch",
 #       0)))))))
 
 dfc$diaClass_hanna <- ifelse(grepl(
-"^Nordniederdeutsch$|^Nordniederdeutsch-Ostfälisch$|^Mecklenburgisch-Vorpommersch$|^Mittelpommersch$|^Brandenburgisch-Südmärkisch$|^Brandenburgisch$"
-, dfc$dilect), "nördliches Niederdeutsch",
-ifelse(grepl(
-"^Westfälisch$|^Ostfälisch$|^Ostfälisch-Brandenburgisch$"
-, dfc$dilect), "südliches Niederdeutsch",
-ifelse(grepl(
-"^Ripuarisch$|^Ripuarisch-Niederfränkisch$|^Moselfränkisch$|^Moselfränkisch-Ripuarisch$|^Niederfränkisch$"
-, dfc$dilect), "Westdeutsch",
-ifelse(grepl(
-"^Rheinfränkisch$|^Rheinfränkisch-Moselfränkisch$|^Rheinfränkisch-Moselfränkisch-Zentralhessisch$|^Rheinfränkisch-Ostfränkisch-Schwäbisch$|^Rheinfränkisch-Zentralhessisch-Moselfränkisch$|^Nordhessisch$|^Zentralhessisch$|^Osthessisch$", dfc$dilect), "westliches Mitteldeutsch",
-ifelse(grepl(
-"^Thüringisch$|^Thüringisch-Obersächsisch$|^Obersächsisch$|^Nordobersächsisch$"
-, dfc$dilect), "östliches Mitteldeutsch",
-ifelse(grepl(
-"^Ostfränkisch$|^Nordbairisch$|^Nordbairisch-Mittelbairisch$|^Mittelbairisch$|^Südbairisch-Schwäbisch$"
-, dfc$dilect), "Ostoberdeutsch",
-ifelse(grepl(
-"^Schwäbisch-Mittelbairisch$|^Schwäbisch$|^Hochalemannisch$|^Hochalemannisch/Niederalemannisch$|^Mittelalemannisch$|^Niederalemannisch$"
-, dfc$dilect), "Westoberdeutsch",
-0)))))))
+  "^Nordniederdeutsch$|^Nordniederdeutsch-OstfÃ¤lisch$|^Mecklenburgisch-Vorpommersch$|^Mittelpommersch$|^Brandenburgisch-SÃ¼dmÃ¤rkisch$|^Brandenburgisch$"
+  , dfc$dilect), "nÃ¶rdliches Niederdeutsch",
+  ifelse(grepl(
+    "^WestfÃ¤lisch$|^OstfÃ¤lisch$|^OstfÃ¤lisch-Brandenburgisch$"
+    , dfc$dilect), "sÃ¼dliches Niederdeutsch",
+    ifelse(grepl(
+      "^Ripuarisch$|^Ripuarisch-NiederfrÃ¤nkisch$|^MoselfrÃ¤nkisch$|^MoselfrÃ¤nkisch-Ripuarisch$|^NiederfrÃ¤nkisch$"
+      , dfc$dilect), "Westdeutsch",
+      ifelse(grepl(
+        "^RheinfrÃ¤nkisch$|^RheinfrÃ¤nkisch-MoselfrÃ¤nkisch$|^RheinfrÃ¤nkisch-MoselfrÃ¤nkisch-Zentralhessisch$|^RheinfrÃ¤nkisch-OstfrÃ¤nkisch-SchwÃ¤bisch$|^RheinfrÃ¤nkisch-Zentralhessisch-MoselfrÃ¤nkisch$|^Nordhessisch$|^Zentralhessisch$|^Osthessisch$", dfc$dilect), "westliches Mitteldeutsch",
+        ifelse(grepl(
+          "^ThÃ¼ringisch$|^ThÃ¼ringisch-ObersÃ¤chsisch$|^ObersÃ¤chsisch$|^NordobersÃ¤chsisch$"
+          , dfc$dilect), "Ã¶stliches Mitteldeutsch",
+          ifelse(grepl(
+            "^OstfrÃ¤nkisch$|^Nordbairisch$|^Nordbairisch-Mittelbairisch$|^Mittelbairisch$|^SÃ¼dbairisch-SchwÃ¤bisch$"
+            , dfc$dilect), "Ostoberdeutsch",
+            ifelse(grepl(
+              "^SchwÃ¤bisch-Mittelbairisch$|^SchwÃ¤bisch$|^Hochalemannisch$|^Hochalemannisch/Niederalemannisch$|^Mittelalemannisch$|^Niederalemannisch$"
+              , dfc$dilect), "Westoberdeutsch",
+              0)))))))
+
 
 
 # check if there is any "0", NOTE: pattern syntax need to have all expressions in a row without " " or enter
@@ -87,6 +88,12 @@ colnames(dfc)[colnames(dfc) == 'dilect'] <- 'dialect' # spell correction :D
 # reorder columns
 dfc <- dfc[, c(12, 1,13,2:11),]
 head(dfc)
+
+
+table(dfc$diaClass_hanna)
+
+
+
 write.xlsx(dfc,file.path(wdd,"full_clean.xlsx"),overwrite = T)
 write.csv(dfc,file.path(wdd,"full_clean.csv"))# automatic overwrites
 ###############################################################################
