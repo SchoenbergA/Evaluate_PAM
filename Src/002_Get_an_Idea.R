@@ -9,13 +9,8 @@ wdd <- "C:/Envimaster/Evaluate_PAM/Data/"
 # devtools::install_github("SchoenbergA/PAMcorrection")
 
 # load package
-require(openxlsx)
 require(PAMcorrection)
 
-full <-read.csv(file.path(wdd,"full_clean.csv"),row.names = 1)
-head(full)
-#full <- read.xlsx(file.path(wdd,"full_clean.xlsx"))
-#head(full)
 
 # get dummy df 
 # all tree "dialects" get diffenrent CTR values and 1 extrema (to prevent exact mean)

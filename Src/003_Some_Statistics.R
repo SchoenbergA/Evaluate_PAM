@@ -85,6 +85,8 @@ boxplot(full$difff~full$diaClass_hanna, xaxt = "n", yaxt = "n")## Draw x-axis wi
              adj = 0.965,
              ## Increase label size.
              cex = 0.8)
+
+        dev.off()
 boxplot(full$difff~full$type)
 
 # Mann-Whitney-U-Test/Wilcoxon-Test
