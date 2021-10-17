@@ -97,5 +97,6 @@ PAMcorrection::plotPAMcorr(typeDIAL2)
 # Discussion
 
 # using to much classes keads to very low n used for the mean
+# using the classification for dialects results in lesser error reduction but increased useablility
 
 
