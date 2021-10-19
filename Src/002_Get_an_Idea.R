@@ -1,4 +1,4 @@
-### Get an Idea of the method 
+### Get an Idea of the method
 
 # set envi
 getwd()
@@ -12,7 +12,7 @@ wdd <- "C:/Envimaster/Evaluate_PAM/Data/"
 require(PAMcorrection)
 
 
-# get dummy df 
+# get dummy df
 # all tree "dialects" get diffenrent CTR values and 1 extrema (to prevent exact mean)
 set.seed(112019)
 dialect <-rep("norddeutsch",10)
@@ -40,6 +40,7 @@ cor(df$PAM,df$CTR)
 
 # plot
 PAMcorrection::plotPAMcorr(df,al = c(10,20))
+PAMcorrection::plotPAMcorr(df,sortby = "PAM")
 
 # correct
 glob <-PAMcorrection::TuningCorr_df(df)
@@ -48,7 +49,12 @@ bydia <-PAMcorrection::TuningCorr_df(df,att1 = "dialect")
 tuned <-PAMcorrection::TuningCorr_df(df,att1 = "dialect", tuning = "treshold",treshold = 0.7)
 # plot results
 PAMcorrection::plotPAMcorr(df)
-PAMcorrection::plotPAMcorr(glob) # generally better
+PAMcorrection::plotPAMcorr(glob)# generally better
+PAMcorrection::plotPAMcorr(glob,abs_dif = F,yl = c(-1,3.5))
+PAMcorrection::plotPAMcorr(glob)
+# equal to LN model :)
+lines(predict(lm(df$CTR~df$PAM)),col='black')
+
 PAMcorrection::plotPAMcorr(bydia)# nearly perfect
 PAMcorrection::plotPAMcorr(tuned)# does not improve performance
 

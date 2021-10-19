@@ -78,7 +78,7 @@ colnames(dfc)[colnames(dfc) == 'dilect'] <- 'dialect' # spell correction :D
 dfc <- dfc[, c(12, 1,13,2:11),]
 head(dfc)
 
-# get some idea of the distrubutin of combination
+# get some idea of the distribution of combination
 
 # main classes
 table(dfc$dialect)
