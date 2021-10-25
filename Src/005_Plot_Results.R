@@ -27,12 +27,6 @@ dfm <-melt(dfm,id.vars = c("informant", "type"))
 names(dfm)
 head(dfm)
 
-ggplot(dfm, aes(type, value, col=type, shape=variable)) +
-  geom_point() +
-  facet_wrap(~informant) +
-  theme(axis.text = element_blank(),
-        axis.ticks = element_blank())
-
 # delete entries
 # get names of informant with less than 15 entries
 table(dfm$informant)
@@ -46,6 +40,17 @@ for (i in 1:length(nwh)) {
   print(nwh[i])
 }
 
+# get df without PAM_corr (for visualisation)
+dft <- dfn[!dfn$variable=="PAM_corr",]
+
+# plot only informants with all types (PAM and CTR only)
+ggplot(dft, aes(type, value, col=type, shape=variable)) +
+  geom_point() +
+  facet_wrap(~informant) +
+  scale_shape_manual(values=c(2,1,4))+
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())
+
 # plot only informants with all types
 ggplot(dfn, aes(type, value, col=type, shape=variable)) +
   geom_point() +
@@ -55,18 +60,20 @@ ggplot(dfn, aes(type, value, col=type, shape=variable)) +
         axis.ticks = element_blank())
 
 
+
 # plot single informants
-p1 <-ggplot(dfm[dfm$informant=="VSJUNG1",], aes(type, value, col=type, shape=variable)) +
-  geom_point(cex=6) +
+p1 <-ggplot(dft[dft$informant=="G2",], aes(type, value, col=type, shape=variable))+
+  geom_point(cex = 6,stroke=2)+
   facet_wrap(~informant) +
+  scale_shape_manual(values=c(2,1,4))+
   theme(axis.text = element_blank(),
-        axis.ticks = element_blank())
+        axis.ticks = element_blank())+ theme(legend.position = "none")
 
 p1
 
 
 # alternative style
-p2 <-ggplot(dfm[dfm$informant=="G2",], aes(type, value, col=type, shape=variable))+
+p2 <-ggplot(dfn[dfn$informant=="G2",], aes(type, value, col=type, shape=variable))+
   geom_point(cex = 6,stroke=2)+
   facet_wrap(~informant) +
   scale_shape_manual(values=c(2,1,4))+

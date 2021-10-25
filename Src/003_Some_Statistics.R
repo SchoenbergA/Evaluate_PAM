@@ -53,10 +53,8 @@ cor.test(mit$PAM,mit$CTR) # 0.9186516
 cor.test(alt$PAM,alt$CTR) # 0.9437992
 
 ### Mean comparison
-
+boxplot(full$difff~full$type)
 # plot generation
-boxplot(full$PAM~full$generation)
-boxplot(full$CTR~full$generation)
 boxplot(full$difff~full$generation)
 
 # more boxplots
@@ -87,7 +85,7 @@ boxplot(full$difff~full$diaClass_hanna, xaxt = "n", yaxt = "n")## Draw x-axis wi
              cex = 0.8)
 
         dev.off()
-boxplot(full$difff~full$type)
+
 
 # Mann-Whitney-U-Test/Wilcoxon-Test
 
