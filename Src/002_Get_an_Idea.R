@@ -13,7 +13,7 @@ require(PAMcorrection)
 
 
 # get dummy df
-# all tree "dialects" get diffenrent CTR values and 1 extrema (to prevent exact mean)
+# all tree "dialects" get different CTR values and 1 extrema (to prevent exact mean)
 set.seed(112019)
 dialect <-rep("norddeutsch",10)
 df1 <-as.data.frame(dialect)
@@ -40,13 +40,13 @@ cor(df$PAM,df$CTR)
 
 # plot
 PAMcorrection::plotPAMcorr(df,al = c(10,20))
-PAMcorrection::plotPAMcorr(df,sortby = "PAM")
+#PAMcorrection::plotPAMcorr(df,sortby = "PAM")
 
 # correct
 glob <-PAMcorrection::TuningCorr_df(df)
 bydia <-PAMcorrection::TuningCorr_df(df,att1 = "dialect")
 bydia <-PAMcorrection::TuningCorr_df(df,att1 = "dialect")
-tuned <-PAMcorrection::TuningCorr_df(df,att1 = "dialect", tuning = "treshold",treshold = 0.7)
+tuned <-PAMcorrection::TuningCorr_df(df,att1 = "dialect", tuning = "threshold",threshold = 0.7)
 # plot results
 PAMcorrection::plotPAMcorr(df)
 PAMcorrection::plotPAMcorr(glob)# generally better

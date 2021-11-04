@@ -1,0 +1,113 @@
+"","ID","dialect","diaClass_hanna","place","GID","generation","informant","type","progess_lvl","PAM","PAM_add","CTR","CTR_add","PAM_corr","div"
+"1",1,"Nordniederdeutsch","nördliches Niederdeutsch","Alt Duvenstedt",108151,"alt","RDALT","WSS",3,1.15,"?",0.8,NA,0.524069228958978,0.275930771041022
+"32",13,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Bergen",118712,"alt","RUEGALT2","WSS",3,1.62,"LV",1.1,NA,0.872755203127603,0.227244796872397
+"59",22,"Westfälisch","südliches Niederdeutsch","Borken",102881,"alt","BORALT1","WSS",3,1.25,"?",0.79,NA,0.583771517485181,0.206228482514819
+"70",33,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"alt","OEALT2","WSS",3,1.18,"?",0.84,NA,0.551080312506011,0.288919687493989
+"123",55,"Rheinfränkisch","westliches Mitteldeutsch","Reinheim",99678,"jung","DAJUNG1","WSS",3,0.74,"?",0.8,NA,0.58001826870195,0.219981731298051
+"148",64,"Zentralhessisch","westliches Mitteldeutsch","Bad Nauheim",99815,"alt","FBALT2","WSS",3,1.32,"?",1.2,NA,0.949699755396962,0.250300244603038
+"150",66,"Zentralhessisch","westliches Mitteldeutsch","Bad Nauheim",99815,"jung","FBJUNG1","WSS",3,1.42,"?",0.7,NA,1.0216467065634,0.321646706563398
+"151",67,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"alt","BÜDALT1","WSS",3,1.3,"?",1.2,NA,0.935310365163674,0.264689634836325
+"156",72,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"jung","GIJUNG","WSS",3,1.31,"?",0.6,NA,0.942505060280318,0.342505060280318
+"160",76,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"alt","FDALT3","WSS",3,1.05,"MA",0.98,"CK",0.704735663082437,0.275264336917563
+"162",78,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"jung","FDJUNG1","WSS",3,0.93,"MG",0.32,"SL",0.624194444444444,0.304194444444444
+"166",79,"Thüringisch","östliches Mitteldeutsch","Heilbad Heiligenstadt",142955,"mittel","EIC1","WSS",2,0.94,"?",0.46,NA,0.68828431730278,0.22828431730278
+"169",80,"Thüringisch","östliches Mitteldeutsch","Sondershausen",141165,"alt","KYFALT2","WSS",3,1.93,"?",1.8,NA,1.4131795025472,0.386820497452802
+"259",131,"Nordniederdeutsch","nördliches Niederdeutsch","Alt Duvenstedt",108151,"alt","RDALT","NoSo",3,0.81,"?",0.9,NA,0.344300006864495,0.555699993135505
+"260",132,"Nordniederdeutsch","nördliches Niederdeutsch","Alt Duvenstedt",108151,"mittel","RD5","NoSo",3,0.95,"?",0.2,NA,0.403808650026259,0.203808650026259
+"273",138,"Nordniederdeutsch","nördliches Niederdeutsch","Oldenburg",107826,"jung","OLJUNG","NoSo",3,1.11,"?",0.25,NA,0.471818527925419,0.221818527925419
+"317",153,"Westfälisch","südliches Niederdeutsch","Borken",102881,"alt","BORALT1","NoSo",3,0.77,"?",0.61,NA,0.348964644591203,0.261035355408797
+"324",160,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"jung","GTJUNG2","NoSo",3,0.95,"?",0.18,NA,0.430540795274861,0.250540795274861
+"327",163,"Westfälisch","südliches Niederdeutsch","Horn-Bad Meinberg",102973,"jung","LIPJUNG2","NoSo",3,0.82,"?",0.11,NA,0.371624686447775,0.261624686447775
+"328",164,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"alt","OEALT2","NoSo",3,0.98,"?",0.68,NA,0.444136820388804,0.235863179611196
+"375",189,"Rheinfränkisch","westliches Mitteldeutsch","Kaiserslautern",100327,"jung","KLJUNG1","NoSo",3,0.9,"MA",0.49,"CK",0.714762085348759,0.224762085348759
+"378",192,"Rheinfränkisch","westliches Mitteldeutsch","Erbach",98214,"jung","ERBJUNG1","NoSo",3,1.21,"PL",0.7,NA,0.960957914746665,0.260957914746665
+"409",208,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"alt","BÜDALT1","NoSo",3,1.49,"?",1.3,NA,1.03355724140589,0.266442758594114
+"414",213,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"jung","GIJUNG","NoSo",3,1.45,"MB",0.7,NA,1.0058107382809,0.305810738280896
+"418",217,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"alt","FDALT3","NoSo",3,1.06,"MA",0.92,"CK",0.66,0.26
+"420",219,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"jung","FDJUNG1","NoSo",3,1,"MG",0.25,"SL",0.622641509433962,0.372641509433962
+"437",224,"Obersächsisch","östliches Mitteldeutsch","Dresden",137577,"mittel","DD4","NoSo",3,1.28,"?",0.8,NA,1.04724609505778,0.24724609505778
+"438",225,"Obersächsisch","östliches Mitteldeutsch","Dresden",137577,"jung","DDJUNG2","NoSo",3,0.7,"?",0.8,NA,0.572712708234724,0.227287291765276
+"447",230,"Ostfränkisch","Ostoberdeutsch","Ansbach",92718,"jung","ANJUNG","NoSo",3,1.48,"?",1.21,"CK",0.991343881669329,0.218656118330671
+"462",238,"Nordbairisch-Mittelbairisch","Ostoberdeutsch","Ingolstadt",89888,"jung","INJUNG1","NoSo",3,1.45,"?",1,NA,1.23005691311612,0.230056913116124
+"487",249,"Schwäbisch","Westoberdeutsch","Ulm",127525,"alt","ULALT1","NoSo",3,1.67,"?",1.1,NA,1.38203931316743,0.282039313167426
+"497",259,"Schwäbisch","Westoberdeutsch","Blindheim",78986,"mittel","DLG1","NoSo",3,1.46,"?",1.5,NA,1.20824993845775,0.29175006154225
+"507",264,"Mittelalemannisch","Westoberdeutsch","Bräunlingen",127324,"jung","VSJUNG1","NoSo",3,1.19,"?",0.54,"CK",0.805316942044795,0.265316942044795
+"531",276,"Nordniederdeutsch","nördliches Niederdeutsch","Oldenburg",107826,"jung","OLJUNG","Inter",3,1.94,NA,0.51,NA,0.743670910130197,0.233670910130197
+"548",281,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Bergen",118712,"alt","RUEGALT2","Inter",3,2.13,"LV",1.4,NA,1.12332714530514,0.276672854694856
+"564",288,"Brandenburgisch","nördliches Niederdeutsch","Pritzwalk",125032,"jung","PRJUNG2","Inter",3,1.79,"?",0.71,"SL",0.940327916571689,0.230327916571689
+"575",290,"Westfälisch","südliches Niederdeutsch","Borken",102881,"alt","BORALT1","Inter",3,1.45,"?",0.8,NA,0.568849888318975,0.231150111681025
+"579",294,"Westfälisch","südliches Niederdeutsch","Hagen",103064,"jung","HAJUNG1","Inter",3,2.8,"?",0.31,NA,1.09846874985733,0.788468749857331
+"582",297,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"jung","GTJUNG2","Inter",3,1.22,"?",0.27,NA,0.478618526723551,0.208618526723551
+"583",298,"Westfälisch","südliches Niederdeutsch","Horn-Bad Meinberg",102973,"alt","LIPALT1","Inter",3,1.8,"?",1.01,NA,0.706158482051141,0.303841517948859
+"585",300,"Westfälisch","südliches Niederdeutsch","Horn-Bad Meinberg",102973,"jung","LIPJUNG2","Inter",3,1.13,"?",0.23,NA,0.443310602620994,0.213310602620994
+"586",301,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"alt","OEALT2","Inter",3,1.33,"?",0.95,NA,0.521772656182232,0.428227343817768
+"589",304,"Ostfälisch","südliches Niederdeutsch","Halberstadt",125017,"alt","HBSALT2","Inter",3,1.36,"HB",0.86,"MG",0.657178197700815,0.202821802299185
+"633",321,"Rheinfränkisch","westliches Mitteldeutsch","Kaiserslautern",100327,"jung","KLJUNG1","Inter",3,1.66,"HB",0.86,"CK",1.13072362278245,0.270723622782446
+"652",325,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","westliches Mitteldeutsch","Frankfurt am Main",97616,"alt","FALT1","Inter",3,2.01,"?",1.8,NA,1.53928896399324,0.26071103600676
+"654",327,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","westliches Mitteldeutsch","Frankfurt am Main",97616,"jung","FJUNG1","Inter",3,1.96,"?",1,NA,1.50099819374465,0.500998193744652
+"666",333,"Zentralhessisch","westliches Mitteldeutsch","Bad Nauheim",99815,"jung","FBJUNG1","Inter",3,1.88,"?",1,NA,1.290014936398,0.290014936398
+"667",334,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"alt","BÜDALT1","Inter",3,2.15,"?",2.1,NA,1.4752830389658,0.624716961034202
+"668",335,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"mittel","BÜD3","Inter",3,1.69,"?",1.4,NA,1.15964108644288,0.240358913557117
+"671",338,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"mittel","GI11","Inter",3,2.23,"?",1.2,NA,1.53017729157848,0.330177291578479
+"672",339,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"jung","GIJUNG","Inter",3,2.06,"?",1,NA,1.41352700477653,0.413527004776532
+"673",340,"Zentralhessisch","westliches Mitteldeutsch","Ulrichstein",94901,"alt","VBALT2","Inter",3,2.16,"?",1.7,NA,1.48214482054238,0.217855179457617
+"675",342,"Zentralhessisch","westliches Mitteldeutsch","Ulrichstein",94901,"jung","VBJUNG1","Inter",3,2.23,"?",1.3,NA,1.53017729157848,0.230177291578479
+"698",352,"Obersächsisch","östliches Mitteldeutsch","Reichenbach",137668,"mittel","Z9","Inter",3,2.35,"?",2,NA,1.53462629685412,0.465373703145878
+"721",361,"Nordbairisch-Mittelbairisch","Ostoberdeutsch","Regensburg",77282,"alt","RALT1","Inter",3,2.19,"?",1.5,NA,1.83789056199904,0.337890561999036
+"746",369,"Schwäbisch","Westoberdeutsch","Ulm",127525,"mittel","UL1","Inter",3,2.22,"?",1.7,NA,1.90566643730968,0.205666437309683
+"747",370,"Schwäbisch","Westoberdeutsch","Ulm",127525,"jung","ULJUNG2","Inter",3,1.94,"?",1.9,NA,1.66531211188324,0.234687888116764
+"752",375,"Schwäbisch","Westoberdeutsch","Rudersberg",131121,"mittel","WN3","Inter",3,2.07,"?",2,NA,1.77690519154551,0.223094808454485
+"778",388,"Nordniederdeutsch","nördliches Niederdeutsch","Bad Segeberg",116678,"alt","SEALT2","FG",3,2.72,"MA",1.91,"CK",1.3947512781552,0.5152487218448
+"780",390,"Nordniederdeutsch","nördliches Niederdeutsch","Bad Segeberg",116678,"jung","SEJUNG1","FG",3,1.58,"MA",0.57,"CK",0.810186404222506,0.240186404222506
+"787",391,"Nordniederdeutsch","nördliches Niederdeutsch","Oldenburg",107826,"alt","OLALT3","FG",3,2.93,"?",2.28,NA,1.50243428124806,0.777565718751936
+"788",392,"Nordniederdeutsch","nördliches Niederdeutsch","Oldenburg",107826,"mittel","OL5","FG",3,1.58,"?",0.61,NA,0.810186404222506,0.200186404222506
+"789",393,"Nordniederdeutsch","nördliches Niederdeutsch","Oldenburg",107826,"jung","OLJUNG","FG",3,1.83,"?",0.49,NA,0.938380455523535,0.448380455523535
+"799",394,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Schwerin",119248,"mittel","SN2","FG",3,1.38,"MA",0.65,"CK",0.868123180094363,0.218123180094363
+"800",395,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Schwerin",119248,"alt","SNALT2","FG",3,2.36,"MA",1.74,"CK",1.484616452915,0.255383547085002
+"801",396,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Schwerin",119248,"jung","SNJUNG1","FG",3,1.7,"NZ",0.73,"CK",1.06942710591335,0.339427105913346
+"806",398,"Mecklenburgisch-Vorpommersch","nördliches Niederdeutsch","Bergen",118712,"alt","RUEGALT2","FG",3,3.06,"LV",2.7,NA,1.92496879064402,0.775031209355977
+"833",407,"Westfälisch","südliches Niederdeutsch","Borken",102881,"alt","BORALT1","FG",3,2.42,"?",2.01,NA,1.18936451388776,0.820635486112243
+"837",411,"Westfälisch","südliches Niederdeutsch","Hagen",103064,"jung","HAJUNG1","FG",3,1.37,"?",0.3,NA,0.673317927283565,0.373317927283565
+"838",412,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"alt","GTALT2","FG",3,2.2,"?",1.84,NA,1.08124046717069,0.758759532829312
+"840",414,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"jung","GTJUNG2","FG",3,1.31,"?",0.27,NA,0.643829550906182,0.373829550906182
+"843",417,"Westfälisch","südliches Niederdeutsch","Horn-Bad Meinberg",102973,"jung","LIPJUNG2","FG",3,0.82,"?",0.2,NA,0.403007810490893,0.203007810490893
+"844",418,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"alt","OEALT2","FG",3,2.3,"?",1.87,NA,1.13038776113299,0.739612238867008
+"853",424,"Ostfälisch","südliches Niederdeutsch","Northeim",107905,"mittel","NOM3","FG",3,2.33,"RK",0.98,"CK",1.1862612966243,0.206261296624302
+"854",425,"Ostfälisch","südliches Niederdeutsch","Northeim",107905,"alt","NOMALT1","FG",3,2.23,"FH",1.4,"CK",1.13534879462326,0.264651205376741
+"910",443,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","westliches Mitteldeutsch","Frankfurt am Main",97616,"alt","FALT1","FG",3,1.97,"?",1.9,NA,1.61015306953265,0.28984693046735
+"912",445,"Rheinfränkisch-Zentralhessisch-Moselfränkisch","westliches Mitteldeutsch","Frankfurt am Main",97616,"jung","FJUNG1","FG",3,1.78,"?",1.1,NA,1.45485911866402,0.354859118664018
+"922",449,"Zentralhessisch","westliches Mitteldeutsch","Bad Nauheim",99815,"alt","FBALT2","FG",3,2.54,"?",2.1,NA,1.85322018953334,0.246779810466662
+"924",451,"Zentralhessisch","westliches Mitteldeutsch","Bad Nauheim",99815,"jung","FBJUNG1","FG",3,2.06,"?",1.1,NA,1.50300535056641,0.403005350566408
+"925",452,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"alt","BÜDALT1","FG",3,2.37,"?",2.2,NA,1.72918576739922,0.470814232600783
+"926",453,"Zentralhessisch","westliches Mitteldeutsch","Büdingen",99973,"mittel","BÜD3","FG",3,1.91,"?",1.6,NA,1.39356321338924,0.206436786610758
+"929",455,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"mittel","GI11","FG",3,2.08,"?",1.3,NA,1.51759763552336,0.217597635523364
+"930",456,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"jung","GIJUNG","FG",3,2.14,"?",1.1,NA,1.56137449039423,0.46137449039423
+"931",457,"Zentralhessisch","westliches Mitteldeutsch","Ulrichstein",94901,"alt","VBALT2","FG",3,3.08,"?",2.5,NA,2.24721188337113,0.252788116628865
+"933",458,"Zentralhessisch","westliches Mitteldeutsch","Ulrichstein",94901,"jung","VBJUNG1","FG",3,3.01,"?",2.5,NA,2.19613888602179,0.303861113978209
+"935",460,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"mittel","FD4","FG",3,2.1,"PL",1.97,"CK",1.71534609365595,0.254653906344047
+"936",461,"Osthessisch","westliches Mitteldeutsch","Hofbieber",100236,"jung","FDJUNG1","FG",3,1.42,"PL",0.94,"CK",1.15990069190069,0.219900691900692
+"943",462,"Thüringisch","östliches Mitteldeutsch","Sondershausen",141165,"alt","KYFALT2","FG",3,2.56,"?",2.4,NA,2.18461538461538,0.215384615384616
+"953",466,"Obersächsisch","östliches Mitteldeutsch","Dresden",137577,"mittel","DD4","FG",3,2.08,"?",1.1,NA,1.36034268998832,0.260342689988316
+"983",481,"Mittelbairisch","Ostoberdeutsch","München",73556,"mittel","M9","FG",3,2.53,"?",2.3,NA,2.08367412648235,0.216325873517654
+"989",483,"Mittelbairisch","Ostoberdeutsch","Trostberg",75512,"mittel","TS2","FG",3,2.92,"MB",2.1,NA,2.4048729048729,0.304872904872905
+"1002",486,"Schwäbisch","Westoberdeutsch","Kaufbeuren",83571,"jung","KFJUNG1","FG",3,1.36,"?",1,NA,1.20414231603249,0.204142316032493
+"1014",497,"Schwäbisch","Westoberdeutsch","Blindheim",78986,"jung","DLGJUNG2","FG",3,2.04,"?",1.6,NA,1.80621347404874,0.206213474048739
+"1023",500,"Mittelalemannisch","Westoberdeutsch","Bräunlingen",127324,"jung","VSJUNG1","FG",3,2.19,"?",1.82,"CK",1.60308781188935,0.216912188110654
+"1029",503,"Mittelalemannisch","Westoberdeutsch","Tuttlingen",130272,"jung","TUTJUNG1","FG",3,1.58,"PL",0.83,"MG",1.15656563597496,0.326565635974962
+"1078",518,"Brandenburgisch","nördliches Niederdeutsch","Pritzwalk",125032,"mittel","PR1","WSD",3,2.33,"?",1.78,"SL",1.44509027782141,0.334909722178588
+"1079",519,"Brandenburgisch","nördliches Niederdeutsch","Pritzwalk",125032,"alt","PRALT2","WSD",3,2.43,"?",1.84,"SL",1.507111319788,0.332888680212004
+"1091",522,"Westfälisch","südliches Niederdeutsch","Borken",102881,"alt","BORALT1","WSD",3,2.77,"?",2.54,NA,2.27669705163519,0.263302948364807
+"1092",523,"Westfälisch","südliches Niederdeutsch","Borken",102881,"jung","BORJUNG1","WSD",3,1.43,"?",0.87,NA,1.17533457900301,0.305334579003006
+"1095",526,"Westfälisch","südliches Niederdeutsch","Hagen",103064,"jung","HAJUNG1","WSD",3,1.1,"?",0.52,NA,0.904103522310005,0.384103522310005
+"1096",527,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"alt","GTALT2","WSD",3,2.83,"?",2.68,NA,2.32601178921574,0.353988210784261
+"1098",529,"Westfälisch","südliches Niederdeutsch","Gütersloh",101621,"jung","GTJUNG2","WSD",3,1,"?",0.34,NA,0.821912293009095,0.481912293009095
+"1101",531,"Westfälisch","südliches Niederdeutsch","Horn-Bad Meinberg",102973,"jung","LIPJUNG2","WSD",3,0.53,"?",1.07,NA,0.43561351529482,0.63438648470518
+"1102",532,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"alt","OEALT2","WSD",3,3.1,"?",2.8,NA,2.54792810832819,0.252071891671805
+"1103",533,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"mittel","OE7","WSD",3,2.39,"?",2.2,NA,1.96437038029174,0.235629619708263
+"1104",534,"Westfälisch","südliches Niederdeutsch","Drolshagen",101533,"jung","OEJUNG","WSD",3,1.05,"MA",0.42,NA,0.86300790765955,0.44300790765955
+"1129",546,"Ripuarisch-Niederfränkisch","Westdeutsch","Mönchengladbach",136187,"alt","MGALT","WSD",3,2.84,"?",2.7,NA,2.44865154941522,0.251348450584785
+"1187",569,"Zentralhessisch","westliches Mitteldeutsch","Gießen",96713,"mittel","GI11","WSD",3,2.93,"?",2.2,NA,2.50748114247753,0.307481142477534
+"1201",577,"Thüringisch","östliches Mitteldeutsch","Sondershausen",141165,"alt","KYFALT2","WSD",3,2.81,"?",2.5,NA,2.25357142857143,0.246428571428571
+"1214",583,"Obersächsisch","östliches Mitteldeutsch","Reichenbach",137668,"mittel","Z9","WSD",3,2.43,"?",2.2,NA,1.93992627640845,0.260073723591549
+"1231",590,"Nordbairisch","Ostoberdeutsch","Weiden",73125,"alt","WENALT2","WSD",3,2.4,"?",2.4,NA,2.1412754724087,0.258724527591297
+"1232",591,"Nordbairisch","Ostoberdeutsch","Weiden",73125,"mittel","WEN2","WSD",3,2.58,"?",2,NA,2.30187113283936,0.301871132839355

@@ -40,7 +40,7 @@ for (i in 1:length(nwh)) {
   print(nwh[i])
 }
 
-# get df without PAM_corr (for visualisation)
+# get df without PAM_corr (for visualization)
 dft <- dfn[!dfn$variable=="PAM_corr",]
 
 # plot only informants with all types (PAM and CTR only)
@@ -62,14 +62,35 @@ ggplot(dfn, aes(type, value, col=type, shape=variable)) +
 
 
 # plot single informants
-p1 <-ggplot(dft[dft$informant=="G2",], aes(type, value, col=type, shape=variable))+
+p1 <-ggplot(dfn[dft$informant=="TUT3",], aes(type, value, col=type, shape=variable))+
   geom_point(cex = 6,stroke=2)+
   facet_wrap(~informant) +
   scale_shape_manual(values=c(2,1,4))+
   theme(axis.text = element_blank(),
         axis.ticks = element_blank())+ theme(legend.position = "none")
 
-p1
+p2 <-ggplot(dfn[dft$informant=="F1",], aes(type, value, col=type, shape=variable))+
+  geom_point(cex = 6,stroke=2)+
+  facet_wrap(~informant) +
+  scale_shape_manual(values=c(2,1,4))+
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())+ theme(legend.position = "none")
+
+p3 <-ggplot(dfn[dft$informant=="KF1",], aes(type, value, col=type, shape=variable))+
+  geom_point(cex = 6,stroke=2)+
+  facet_wrap(~informant) +
+  scale_shape_manual(values=c(2,1,4))+
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())+ theme(legend.position = "none")
+
+p4 <-ggplot(dfn[dft$informant=="AM3",], aes(type, value, col=type, shape=variable))+
+  geom_point(cex = 6,stroke=2)+
+  facet_wrap(~informant) +
+  scale_shape_manual(values=c(2,1,4))+
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())+ theme(legend.position = "none")
+
+
 
 
 # alternative style
@@ -83,5 +104,5 @@ p2 <-ggplot(dfn[dfn$informant=="G2",], aes(type, value, col=type, shape=variable
 p2
 
 # plot grid
-grid.arrange(p1, p2,p1,p2, nrow = 2)
+grid.arrange(p1, p2,p3,p4, nrow = 2)
 

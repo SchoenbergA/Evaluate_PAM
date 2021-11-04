@@ -22,8 +22,8 @@ dfc <-full[!(full$progess_lvl== 0 | full$progess_lvl== 1| full$progess_lvl== 9),
 head(dfc)
 tail(dfc)
 # check content
-table(dfc$PAM) # has "-"
-table(dfc$CTR) # has "-" and "n.d."
+table(dfc$PAM) # has "-" 170
+table(dfc$CTR) # has "-" and "n.d." 9
 # remove
 dfc <- dfc[!(dfc$PAM== "-" |dfc$CTR== "-" |dfc$CTR== "n.d." ),]
 head(dfc)

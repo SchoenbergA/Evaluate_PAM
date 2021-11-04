@@ -15,7 +15,7 @@ require(gridExtra)
 
 # data --------------------------------------------------------------------
 mess <-read.csv2(file.path(wdd,"d-mess-sel.csv"),stringsAsFactors = F)
-
+head(mess)
 mess <- mess[,1:14]
 mess <- na.omit(mess)
 mess <- mess[,3:ncol(mess)]
@@ -115,26 +115,30 @@ ggplot(mess.all, aes(context, value, col = context)) +
 ggplot(mess.all, aes(context, value, col = context, shape = cond)) +
   geom_point() +
   facet_wrap(~variable) +
-  theme(axis.text = element_blank(),
+  scale_shape_manual(values=c(2,1,4))+
+    theme(axis.text = element_blank(),
         axis.ticks = element_blank())
 
 # per generation
 mess.all.alt <- mess.all %>%
   filter(grepl("ALT", mess.all$variable))
 ggplot(mess.all.alt, aes(context, value, col = context, shape = cond)) +
-  geom_point() +
+  scale_shape_manual(values=c(2,1,4))+
+    geom_point() +
   facet_wrap(~variable)
 
 mess.all.mittel <- mess.all %>%
   filter(!grepl("(JUNG|ALT)", mess.all$variable))
 ggplot(mess.all.mittel, aes(context, value, col = context, shape = cond)) +
-  geom_point() +
+    geom_point() +
+  scale_shape_manual(values=c(2,1,4))+
   facet_wrap(~variable)
 
 mess.all.jung <- mess.all %>%
   filter(grepl("JUNG", mess.all$variable))
 ggplot(mess.all.jung, aes(context, value, col = context, shape = cond)) +
-  geom_point() +
+  scale_shape_manual(values=c(2,1,4))+
+    geom_point() +
   facet_wrap(~variable)
 # -------------------------------------------------------------------------
 
